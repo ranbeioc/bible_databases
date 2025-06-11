@@ -61,6 +61,9 @@
   "chr": [
     {"version": "Che1860", "name": "Cherokee New Testament (1860) with Sequoyah transliterated forms"}
   ],
+  "zh-hans": [
+    {"version": "ChiUns", "name": "和合本 (简体字)"}
+  ],
   "zh-hant": [
     {"version": "ChiSB", "name": "思高本 (Sīgāo Běn), 聖經：思高聖經學會譯釋"},
     {"version": "ChiUn", "name": "和合本 (繁體字)"}
