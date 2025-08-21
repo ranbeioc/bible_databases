@@ -623,9 +623,7 @@
         "txt": "/txt/ChiUn.txt",
         "sqlite": "/sqlite/ChiUn.db"
       }
-    }
-  ],
-  "lzh": [
+    },
     {
       "version": "ChiUnL",
       "name": "聖經 (文理和合)",
