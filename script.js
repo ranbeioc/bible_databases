@@ -117,8 +117,10 @@ tocEl.innerHTML = '';
         // Use a custom renderer to add IDs to headings
         const renderer = new marked.Renderer();
         renderer.heading = function (text, level) {
-            const escapedText = text.toLowerCase().replace(/[^\w]+/g, '-');
-            return `<h${level} id="${escapedText}">${text}</h${level}>`;
+            // Ensure text is a string before processing
+            const safeText = typeof text === 'string' ? text : JSON.stringify(text);
+            const escapedText = safeText.toLowerCase().replace(/[^\w]+/g, '-');
+            return `<h${level} id="${escapedText}">${safeText}</h${level}>`;
         };
         contentEl.innerHTML = marked.parse(markdown, { renderer: renderer });
     }
