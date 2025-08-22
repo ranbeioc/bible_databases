@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="selectors">
+            <select id="language-select"></select>
+            <select id="version-select"></select>
+        </div>
+        <button id="sidebar-toggle">☰</button>
+    </header>
+
+    <div class="container">
+        <nav id="sidebar">
+            <div class="search-container">
+                <input type="text" id="search-box" placeholder="Search...">
+                <button id="clear-all-btn">Clear All</button>
+            </div>
+            <div id="toc"></div>
+        </nav>
+        <main id="content"></main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
