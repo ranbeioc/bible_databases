@@ -81,34 +81,43 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Load the markdown content for the selected version
     async function loadContent(versionOverride = null) {
+        console.log('loadContent called. versionOverride:', versionOverride);
         const lang = langSelect.value;
         const version = versionOverride || versionSelect.value;
+        console.log(`Loading content for lang: ${lang}, version: ${version}`);
         localStorage.setItem('selectedVersion', version);
 
         if (!lang || !version) {
             contentEl.innerHTML = '<p>Please select a language and version.</p>';
+            console.error('Missing lang or version.');
             return;
         }
 
         const versionData = langverData[lang]?.find(v => v.version === version);
+        console.log('Found version data:', versionData);
 
         if (versionData && versionData.files.md) {
+            console.log('Fetching markdown from:', versionData.files.md);
             try {
                 const response = await fetch(versionData.files.md);
-                if (!response.ok) throw new Error(`File not found: ${versionData.files.md}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status} while fetching ${versionData.files.md}`);
+                }
                 currentMarkdown = await response.text();
                 renderMarkdown(currentMarkdown);
                 generateToc(currentMarkdown);
+                console.log('Content loaded and rendered successfully.');
             } catch (error) {
                 console.error('Error loading markdown file:', error);
-                contentEl.innerHTML = `<p>Error loading content.</p>`;
+                contentEl.innerHTML = `<p>Error loading content. See console for details.</p>`;
                 currentMarkdown = '';
                 tocEl.innerHTML = '';
             }
         } else {
+            console.error('No markdown file available for this version.');
             contentEl.innerHTML = '<p>No markdown file available for this version.</p>';
             currentMarkdown = '';
-tocEl.innerHTML = '';
+            tocEl.innerHTML = '';
         }
     }
 
@@ -155,8 +164,9 @@ tocEl.innerHTML = '';
 
     // Setup all event listeners
     function setupEventListeners() {
-        langSelect.addEventListener('change', updateVersions);
-        versionSelect.addEventListener('change', loadContent);
+        // Wrap listener calls in anonymous functions to avoid passing the Event object
+        langSelect.addEventListener('change', () => updateVersions());
+        versionSelect.addEventListener('change', () => loadContent());
         searchBox.addEventListener('input', handleSearch);
         clearAllBtn.addEventListener('click', () => {
             searchBox.value = '';
@@ -170,10 +180,20 @@ tocEl.innerHTML = '';
             sidebar.classList.toggle('open');
         });
 
-        // Close sidebar when a TOC link is clicked on mobile
+        // Handle TOC link clicks for smooth scrolling and sidebar management
         tocEl.addEventListener('click', (e) => {
-            if (e.target.classList.contains('toc-link') && window.innerWidth <= 768) {
-                sidebar.classList.remove('open');
+            if (e.target.classList.contains('toc-link')) {
+                e.preventDefault();
+                const targetId = e.target.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                }
+
+                // Close sidebar on mobile after clicking a link
+                if (window.innerWidth <= 768) {
+                    sidebar.classList.remove('open');
+                }
             }
         });
 
@@ -195,6 +215,8 @@ tocEl.innerHTML = '';
         const viewDropdown = document.querySelector('.dropdown');
         const viewDropdownBtn = document.getElementById('view-dropdown-btn');
         const toggleThemeBtn = document.getElementById('toggle-theme');
+        const toggleFullscreenBtn = document.getElementById('toggle-fullscreen');
+        const toggleZenModeBtn = document.getElementById('toggle-zen-mode');
 
         viewDropdownBtn.addEventListener('click', (e) => {
             e.stopPropagation();
@@ -206,6 +228,18 @@ tocEl.innerHTML = '';
             const currentTheme = document.body.classList.contains('dark-theme') ? 'dark' : 'light';
             const newTheme = currentTheme === 'light' ? 'dark' : 'light';
             applyTheme(newTheme);
+            viewDropdown.classList.remove('show');
+        });
+
+        toggleFullscreenBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            toggleFullScreen();
+            viewDropdown.classList.remove('show');
+        });
+
+        toggleZenModeBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            toggleZenMode();
             viewDropdown.classList.remove('show');
         });
 
@@ -285,6 +319,20 @@ tocEl.innerHTML = '';
         document.body.classList.remove('light-theme', 'dark-theme');
         document.body.classList.add(`${theme}-theme`);
         localStorage.setItem('theme', theme);
+    }
+
+    function toggleFullScreen() {
+        if (!document.fullscreenElement) {
+            document.documentElement.requestFullscreen();
+        } else {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            }
+        }
+    }
+
+    function toggleZenMode() {
+        document.body.classList.toggle('zen-mode');
     }
 
     // Start the app

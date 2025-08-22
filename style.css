@@ -181,3 +181,18 @@ body.dark-theme #toc a {
         display: block;
     }
 }
+
+/* Zen Mode */
+body.zen-mode header {
+    display: none;
+}
+
+body.zen-mode #sidebar {
+    display: none;
+}
+
+body.zen-mode #content {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
