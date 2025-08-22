@@ -4,443 +4,443 @@
       "version": "ACV",
       "name": "A Conservative Version",
       "files": {
-        "csv": "/formats/csv/ACV.csv",
-        "json": "/formats/json/ACV.json",
-        "yaml": "/formats/yaml/ACV.yaml",
-        "sql": "/formats/sql/ACV.sql",
-        "md": "/formats/md/ACV.md",
-        "txt": "/formats/txt/ACV.txt",
-        "sqlite": "/formats/sqlite/ACV.db"
+        "csv": "formats/csv/ACV.csv",
+        "json": "formats/json/ACV.json",
+        "yaml": "formats/yaml/ACV.yaml",
+        "sql": "formats/sql/ACV.sql",
+        "md": "formats/md/ACV.md",
+        "txt": "formats/txt/ACV.txt",
+        "sqlite": "formats/sqlite/ACV.db"
       }
     },
     {
       "version": "AKJV",
       "name": "American King James Version",
       "files": {
-        "csv": "/formats/csv/AKJV.csv",
-        "json": "/formats/json/AKJV.json",
-        "yaml": "/formats/yaml/AKJV.yaml",
-        "sql": "/formats/sql/AKJV.sql",
-        "md": "/formats/md/AKJV.md",
-        "txt": "/formats/txt/AKJV.txt",
-        "sqlite": "/formats/sqlite/AKJV.db"
+        "csv": "formats/csv/AKJV.csv",
+        "json": "formats/json/AKJV.json",
+        "yaml": "formats/yaml/AKJV.yaml",
+        "sql": "formats/sql/AKJV.sql",
+        "md": "formats/md/AKJV.md",
+        "txt": "formats/txt/AKJV.txt",
+        "sqlite": "formats/sqlite/AKJV.db"
       }
     },
     {
       "version": "ASV",
       "name": "American Standard Version (1901)",
       "files": {
-        "csv": "/formats/csv/ASV.csv",
-        "json": "/formats/json/ASV.json",
-        "yaml": "/formats/yaml/ASV.yaml",
-        "sql": "/formats/sql/ASV.sql",
-        "md": "/formats/md/ASV.md",
-        "txt": "/formats/txt/ASV.txt",
-        "sqlite": "/formats/sqlite/ASV.db"
+        "csv": "formats/csv/ASV.csv",
+        "json": "formats/json/ASV.json",
+        "yaml": "formats/yaml/ASV.yaml",
+        "sql": "formats/sql/ASV.sql",
+        "md": "formats/md/ASV.md",
+        "txt": "formats/txt/ASV.txt",
+        "sqlite": "formats/sqlite/ASV.db"
       }
     },
     {
       "version": "Anderson",
       "name": "Henry Tompkins Anderson's 1864 New Testament",
       "files": {
-        "csv": "/formats/csv/Anderson.csv",
-        "json": "/formats/json/Anderson.json",
-        "yaml": "/formats/yaml/Anderson.yaml",
-        "sql": "/formats/sql/Anderson.sql",
-        "md": "/formats/md/Anderson.md",
-        "txt": "/formats/txt/Anderson.txt",
-        "sqlite": "/formats/sqlite/Anderson.db"
+        "csv": "formats/csv/Anderson.csv",
+        "json": "formats/json/Anderson.json",
+        "yaml": "formats/yaml/Anderson.yaml",
+        "sql": "formats/sql/Anderson.sql",
+        "md": "formats/md/Anderson.md",
+        "txt": "formats/txt/Anderson.txt",
+        "sqlite": "formats/sqlite/Anderson.db"
       }
     },
     {
       "version": "BBE",
       "name": "1949/1964 Bible in Basic English",
       "files": {
-        "csv": "/formats/csv/BBE.csv",
-        "json": "/formats/json/BBE.json",
-        "yaml": "/formats/yaml/BBE.yaml",
-        "sql": "/formats/sql/BBE.sql",
-        "md": "/formats/md/BBE.md",
-        "txt": "/formats/txt/BBE.txt",
-        "sqlite": "/formats/sqlite/BBE.db"
+        "csv": "formats/csv/BBE.csv",
+        "json": "formats/json/BBE.json",
+        "yaml": "formats/yaml/BBE.yaml",
+        "sql": "formats/sql/BBE.sql",
+        "md": "formats/md/BBE.md",
+        "txt": "formats/txt/BBE.txt",
+        "sqlite": "formats/sqlite/BBE.db"
       }
     },
     {
       "version": "BSB",
       "name": "Berean Standard Bible",
       "files": {
-        "csv": "/formats/csv/BSB.csv",
-        "json": "/formats/json/BSB.json",
-        "yaml": "/formats/yaml/BSB.yaml",
-        "sql": "/formats/sql/BSB.sql",
-        "md": "/formats/md/BSB.md",
-        "txt": "/formats/txt/BSB.txt",
-        "sqlite": "/formats/sqlite/BSB.db"
+        "csv": "formats/csv/BSB.csv",
+        "json": "formats/json/BSB.json",
+        "yaml": "formats/yaml/BSB.yaml",
+        "sql": "formats/sql/BSB.sql",
+        "md": "formats/md/BSB.md",
+        "txt": "formats/txt/BSB.txt",
+        "sqlite": "formats/sqlite/BSB.db"
       }
     },
     {
       "version": "CPDV",
       "name": "Catholic Public Domain Version",
       "files": {
-        "csv": "/formats/csv/CPDV.csv",
-        "json": "/formats/json/CPDV.json",
-        "yaml": "/formats/yaml/CPDV.yaml",
-        "sql": "/formats/sql/CPDV.sql",
-        "md": "/formats/md/CPDV.md",
-        "txt": "/formats/txt/CPDV.txt",
-        "sqlite": "/formats/sqlite/CPDV.db"
+        "csv": "formats/csv/CPDV.csv",
+        "json": "formats/json/CPDV.json",
+        "yaml": "formats/yaml/CPDV.yaml",
+        "sql": "formats/sql/CPDV.sql",
+        "md": "formats/md/CPDV.md",
+        "txt": "formats/txt/CPDV.txt",
+        "sqlite": "formats/sqlite/CPDV.db"
       }
     },
     {
       "version": "DRC",
       "name": "Douay-Rheims Bible, Challoner Revision",
       "files": {
-        "csv": "/formats/csv/DRC.csv",
-        "json": "/formats/json/DRC.json",
-        "yaml": "/formats/yaml/DRC.yaml",
-        "sql": "/formats/sql/DRC.sql",
-        "md": "/formats/md/DRC.md",
-        "txt": "/formats/txt/DRC.txt",
-        "sqlite": "/formats/sqlite/DRC.db"
+        "csv": "formats/csv/DRC.csv",
+        "json": "formats/json/DRC.json",
+        "yaml": "formats/yaml/DRC.yaml",
+        "sql": "formats/sql/DRC.sql",
+        "md": "formats/md/DRC.md",
+        "txt": "formats/txt/DRC.txt",
+        "sqlite": "formats/sqlite/DRC.db"
       }
     },
     {
       "version": "Darby",
       "name": "Darby Bible (1889)",
       "files": {
-        "csv": "/formats/csv/Darby.csv",
-        "json": "/formats/json/Darby.json",
-        "yaml": "/formats/yaml/Darby.yaml",
-        "sql": "/formats/sql/Darby.sql",
-        "md": "/formats/md/Darby.md",
-        "txt": "/formats/txt/Darby.txt",
-        "sqlite": "/formats/sqlite/Darby.db"
+        "csv": "formats/csv/Darby.csv",
+        "json": "formats/json/Darby.json",
+        "yaml": "formats/yaml/Darby.yaml",
+        "sql": "formats/sql/Darby.sql",
+        "md": "formats/md/Darby.md",
+        "txt": "formats/txt/Darby.txt",
+        "sqlite": "formats/sqlite/Darby.db"
       }
     },
     {
       "version": "Geneva1599",
       "name": "Geneva Bible (1599)",
       "files": {
-        "csv": "/formats/csv/Geneva1599.csv",
-        "json": "/formats/json/Geneva1599.json",
-        "yaml": "/formats/yaml/Geneva1599.yaml",
-        "sql": "/formats/sql/Geneva1599.sql",
-        "md": "/formats/md/Geneva1599.md",
-        "txt": "/formats/txt/Geneva1599.txt",
-        "sqlite": "/formats/sqlite/Geneva1599.db"
+        "csv": "formats/csv/Geneva1599.csv",
+        "json": "formats/json/Geneva1599.json",
+        "yaml": "formats/yaml/Geneva1599.yaml",
+        "sql": "formats/sql/Geneva1599.sql",
+        "md": "formats/md/Geneva1599.md",
+        "txt": "formats/txt/Geneva1599.txt",
+        "sqlite": "formats/sqlite/Geneva1599.db"
       }
     },
     {
       "version": "Haweis",
       "name": "Thomas Haweis 1795 New Testament",
       "files": {
-        "csv": "/formats/csv/Haweis.csv",
-        "json": "/formats/json/Haweis.json",
-        "yaml": "/formats/yaml/Haweis.yaml",
-        "sql": "/formats/sql/Haweis.sql",
-        "md": "/formats/md/Haweis.md",
-        "txt": "/formats/txt/Haweis.txt",
-        "sqlite": "/formats/sqlite/Haweis.db"
+        "csv": "formats/csv/Haweis.csv",
+        "json": "formats/json/Haweis.json",
+        "yaml": "formats/yaml/Haweis.yaml",
+        "sql": "formats/sql/Haweis.sql",
+        "md": "formats/md/Haweis.md",
+        "txt": "formats/txt/Haweis.txt",
+        "sqlite": "formats/sqlite/Haweis.db"
       }
     },
     {
       "version": "JPS",
       "name": "Jewish Publication Society Old Testament",
       "files": {
-        "csv": "/formats/csv/JPS.csv",
-        "json": "/formats/json/JPS.json",
-        "yaml": "/formats/yaml/JPS.yaml",
-        "sql": "/formats/sql/JPS.sql",
-        "md": "/formats/md/JPS.md",
-        "txt": "/formats/txt/JPS.txt",
-        "sqlite": "/formats/sqlite/JPS.db"
+        "csv": "formats/csv/JPS.csv",
+        "json": "formats/json/JPS.json",
+        "yaml": "formats/yaml/JPS.yaml",
+        "sql": "formats/sql/JPS.sql",
+        "md": "formats/md/JPS.md",
+        "txt": "formats/txt/JPS.txt",
+        "sqlite": "formats/sqlite/JPS.db"
       }
     },
     {
       "version": "Jubilee2000",
       "name": "English Jubilee 2000 Bible",
       "files": {
-        "csv": "/formats/csv/Jubilee2000.csv",
-        "json": "/formats/json/Jubilee2000.json",
-        "yaml": "/formats/yaml/Jubilee2000.yaml",
-        "sql": "/formats/sql/Jubilee2000.sql",
-        "md": "/formats/md/Jubilee2000.md",
-        "txt": "/formats/txt/Jubilee2000.txt",
-        "sqlite": "/formats/sqlite/Jubilee2000.db"
+        "csv": "formats/csv/Jubilee2000.csv",
+        "json": "formats/json/Jubilee2000.json",
+        "yaml": "formats/yaml/Jubilee2000.yaml",
+        "sql": "formats/sql/Jubilee2000.sql",
+        "md": "formats/md/Jubilee2000.md",
+        "txt": "formats/txt/Jubilee2000.txt",
+        "sqlite": "formats/sqlite/Jubilee2000.db"
       }
     },
     {
       "version": "KJV",
       "name": "King James Version (1769) with Strongs Numbers and Morphology and CatchWords",
       "files": {
-        "csv": "/formats/csv/KJV.csv",
-        "psql": "/formats/psql/KJV.sql",
-        "json": "/formats/json/KJV.json",
-        "yaml": "/formats/yaml/KJV.yaml",
-        "sql": "/formats/sql/KJV.sql",
-        "md": "/formats/md/KJV.md",
-        "txt": "/formats/txt/KJV.txt",
-        "sqlite": "/formats/sqlite/KJV.db"
+        "csv": "formats/csv/KJV.csv",
+        "psql": "formats/psql/KJV.sql",
+        "json": "formats/json/KJV.json",
+        "yaml": "formats/yaml/KJV.yaml",
+        "sql": "formats/sql/KJV.sql",
+        "md": "formats/md/KJV.md",
+        "txt": "formats/txt/KJV.txt",
+        "sqlite": "formats/sqlite/KJV.db"
       }
     },
     {
       "version": "KJVA",
       "name": "King James Version (1769) with Strongs Numbers and Morphology and CatchWords, including Apocrypha (without glosses)",
       "files": {
-        "csv": "/formats/csv/KJVA.csv",
-        "json": "/formats/json/KJVA.json",
-        "yaml": "/formats/yaml/KJVA.yaml",
-        "sql": "/formats/sql/KJVA.sql",
-        "md": "/formats/md/KJVA.md",
-        "txt": "/formats/txt/KJVA.txt",
-        "sqlite": "/formats/sqlite/KJVA.db"
+        "csv": "formats/csv/KJVA.csv",
+        "json": "formats/json/KJVA.json",
+        "yaml": "formats/yaml/KJVA.yaml",
+        "sql": "formats/sql/KJVA.sql",
+        "md": "formats/md/KJVA.md",
+        "txt": "formats/txt/KJVA.txt",
+        "sqlite": "formats/sqlite/KJVA.db"
       }
     },
     {
       "version": "KJVPCE",
       "name": "King James Version: Pure Cambridge Edition",
       "files": {
-        "csv": "/formats/csv/KJVPCE.csv",
-        "json": "/formats/json/KJVPCE.json",
-        "yaml": "/formats/yaml/KJVPCE.yaml",
-        "sql": "/formats/sql/KJVPCE.sql",
-        "md": "/formats/md/KJVPCE.md",
-        "txt": "/formats/txt/KJVPCE.txt",
-        "sqlite": "/formats/sqlite/KJVPCE.db"
+        "csv": "formats/csv/KJVPCE.csv",
+        "json": "formats/json/KJVPCE.json",
+        "yaml": "formats/yaml/KJVPCE.yaml",
+        "sql": "formats/sql/KJVPCE.sql",
+        "md": "formats/md/KJVPCE.md",
+        "txt": "formats/txt/KJVPCE.txt",
+        "sqlite": "formats/sqlite/KJVPCE.db"
       }
     },
     {
       "version": "LEB",
       "name": "The Lexham English Bible",
       "files": {
-        "csv": "/formats/csv/LEB.csv",
-        "json": "/formats/json/LEB.json",
-        "yaml": "/formats/yaml/LEB.yaml",
-        "sql": "/formats/sql/LEB.sql",
-        "md": "/formats/md/LEB.md",
-        "txt": "/formats/txt/LEB.txt",
-        "sqlite": "/formats/sqlite/LEB.db"
+        "csv": "formats/csv/LEB.csv",
+        "json": "formats/json/LEB.json",
+        "yaml": "formats/yaml/LEB.yaml",
+        "sql": "formats/sql/LEB.sql",
+        "md": "formats/md/LEB.md",
+        "txt": "formats/txt/LEB.txt",
+        "sqlite": "formats/sqlite/LEB.db"
       }
     },
     {
       "version": "LITV",
       "name": "Green's Literal Translation",
       "files": {
-        "csv": "/formats/csv/LITV.csv",
-        "json": "/formats/json/LITV.json",
-        "yaml": "/formats/yaml/LITV.yaml",
-        "sql": "/formats/sql/LITV.sql",
-        "md": "/formats/md/LITV.md",
-        "txt": "/formats/txt/LITV.txt",
-        "sqlite": "/formats/sqlite/LITV.db"
+        "csv": "formats/csv/LITV.csv",
+        "json": "formats/json/LITV.json",
+        "yaml": "formats/yaml/LITV.yaml",
+        "sql": "formats/sql/LITV.sql",
+        "md": "formats/md/LITV.md",
+        "txt": "formats/txt/LITV.txt",
+        "sqlite": "formats/sqlite/LITV.db"
       }
     },
     {
       "version": "MKJV",
       "name": "Green's Modern King James Version",
       "files": {
-        "csv": "/formats/csv/MKJV.csv",
-        "json": "/formats/json/MKJV.json",
-        "yaml": "/formats/yaml/MKJV.yaml",
-        "sql": "/formats/sql/MKJV.sql",
-        "md": "/formats/md/MKJV.md",
-        "txt": "/formats/txt/MKJV.txt",
-        "sqlite": "/formats/sqlite/MKJV.db"
+        "csv": "formats/csv/MKJV.csv",
+        "json": "formats/json/MKJV.json",
+        "yaml": "formats/yaml/MKJV.yaml",
+        "sql": "formats/sql/MKJV.sql",
+        "md": "formats/md/MKJV.md",
+        "txt": "formats/txt/MKJV.txt",
+        "sqlite": "formats/sqlite/MKJV.db"
       }
     },
     {
       "version": "NHEB",
       "name": "New Heart English Bible",
       "files": {
-        "csv": "/formats/csv/NHEB.csv",
-        "json": "/formats/json/NHEB.json",
-        "yaml": "/formats/yaml/NHEB.yaml",
-        "sql": "/formats/sql/NHEB.sql",
-        "md": "/formats/md/NHEB.md",
-        "txt": "/formats/txt/NHEB.txt",
-        "sqlite": "/formats/sqlite/NHEB.db"
+        "csv": "formats/csv/NHEB.csv",
+        "json": "formats/json/NHEB.json",
+        "yaml": "formats/yaml/NHEB.yaml",
+        "sql": "formats/sql/NHEB.sql",
+        "md": "formats/md/NHEB.md",
+        "txt": "formats/txt/NHEB.txt",
+        "sqlite": "formats/sqlite/NHEB.db"
       }
     },
     {
       "version": "NHEBJE",
       "name": "New Heart English Bible: Jehovah Edition",
       "files": {
-        "csv": "/formats/csv/NHEBJE.csv",
-        "json": "/formats/json/NHEBJE.json",
-        "yaml": "/formats/yaml/NHEBJE.yaml",
-        "sql": "/formats/sql/NHEBJE.sql",
-        "md": "/formats/md/NHEBJE.md",
-        "txt": "/formats/txt/NHEBJE.txt",
-        "sqlite": "/formats/sqlite/NHEBJE.db"
+        "csv": "formats/csv/NHEBJE.csv",
+        "json": "formats/json/NHEBJE.json",
+        "yaml": "formats/yaml/NHEBJE.yaml",
+        "sql": "formats/sql/NHEBJE.sql",
+        "md": "formats/md/NHEBJE.md",
+        "txt": "formats/txt/NHEBJE.txt",
+        "sqlite": "formats/sqlite/NHEBJE.db"
       }
     },
     {
       "version": "NHEBME",
       "name": "New Heart English Bible: Messianic Edition",
       "files": {
-        "csv": "/formats/csv/NHEBME.csv",
-        "json": "/formats/json/NHEBME.json",
-        "yaml": "/formats/yaml/NHEBME.yaml",
-        "sql": "/formats/sql/NHEBME.sql",
-        "md": "/formats/md/NHEBME.md",
-        "txt": "/formats/txt/NHEBME.txt",
-        "sqlite": "/formats/sqlite/NHEBME.db"
+        "csv": "formats/csv/NHEBME.csv",
+        "json": "formats/json/NHEBME.json",
+        "yaml": "formats/yaml/NHEBME.yaml",
+        "sql": "formats/sql/NHEBME.sql",
+        "md": "formats/md/NHEBME.md",
+        "txt": "formats/txt/NHEBME.txt",
+        "sqlite": "formats/sqlite/NHEBME.db"
       }
     },
     {
       "version": "Noyes",
       "name": "1869 Noyes Translation",
       "files": {
-        "csv": "/formats/csv/Noyes.csv",
-        "json": "/formats/json/Noyes.json",
-        "yaml": "/formats/yaml/Noyes.yaml",
-        "sql": "/formats/sql/Noyes.sql",
-        "md": "/formats/md/Noyes.md",
-        "txt": "/formats/txt/Noyes.txt",
-        "sqlite": "/formats/sqlite/Noyes.db"
+        "csv": "formats/csv/Noyes.csv",
+        "json": "formats/json/Noyes.json",
+        "yaml": "formats/yaml/Noyes.yaml",
+        "sql": "formats/sql/Noyes.sql",
+        "md": "formats/md/Noyes.md",
+        "txt": "formats/txt/Noyes.txt",
+        "sqlite": "formats/sqlite/Noyes.db"
       }
     },
     {
       "version": "OEB",
       "name": "Open English Bible (US Spelling)",
       "files": {
-        "csv": "/formats/csv/OEB.csv",
-        "json": "/formats/json/OEB.json",
-        "yaml": "/formats/yaml/OEB.yaml",
-        "sql": "/formats/sql/OEB.sql",
-        "md": "/formats/md/OEB.md",
-        "txt": "/formats/txt/OEB.txt",
-        "sqlite": "/formats/sqlite/OEB.db"
+        "csv": "formats/csv/OEB.csv",
+        "json": "formats/json/OEB.json",
+        "yaml": "formats/yaml/OEB.yaml",
+        "sql": "formats/sql/OEB.sql",
+        "md": "formats/md/OEB.md",
+        "txt": "formats/txt/OEB.txt",
+        "sqlite": "formats/sqlite/OEB.db"
       }
     },
     {
       "version": "OEBcth",
       "name": "Open English Bible (Commonwealth Spelling)",
       "files": {
-        "csv": "/formats/csv/OEBcth.csv",
-        "json": "/formats/json/OEBcth.json",
-        "yaml": "/formats/yaml/OEBcth.yaml",
-        "sql": "/formats/sql/OEBcth.sql",
-        "md": "/formats/md/OEBcth.md",
-        "txt": "/formats/txt/OEBcth.txt",
-        "sqlite": "/formats/sqlite/OEBcth.db"
+        "csv": "formats/csv/OEBcth.csv",
+        "json": "formats/json/OEBcth.json",
+        "yaml": "formats/yaml/OEBcth.yaml",
+        "sql": "formats/sql/OEBcth.sql",
+        "md": "formats/md/OEBcth.md",
+        "txt": "formats/txt/OEBcth.txt",
+        "sqlite": "formats/sqlite/OEBcth.db"
       }
     },
     {
       "version": "RLT",
       "name": "Revised Literal Translation (2018) of the King James Version with Strongs Numbers and Morphology",
       "files": {
-        "csv": "/formats/csv/RLT.csv",
-        "json": "/formats/json/RLT.json",
-        "yaml": "/formats/yaml/RLT.yaml",
-        "sql": "/formats/sql/RLT.sql",
-        "md": "/formats/md/RLT.md",
-        "txt": "/formats/txt/RLT.txt",
-        "sqlite": "/formats/sqlite/RLT.db"
+        "csv": "formats/csv/RLT.csv",
+        "json": "formats/json/RLT.json",
+        "yaml": "formats/yaml/RLT.yaml",
+        "sql": "formats/sql/RLT.sql",
+        "md": "formats/md/RLT.md",
+        "txt": "formats/txt/RLT.txt",
+        "sqlite": "formats/sqlite/RLT.db"
       }
     },
     {
       "version": "RNKJV",
       "name": "Restored Name King James Version",
       "files": {
-        "csv": "/formats/csv/RNKJV.csv",
-        "json": "/formats/json/RNKJV.json",
-        "yaml": "/formats/yaml/RNKJV.yaml",
-        "sql": "/formats/sql/RNKJV.sql",
-        "md": "/formats/md/RNKJV.md",
-        "txt": "/formats/txt/RNKJV.txt",
-        "sqlite": "/formats/sqlite/RNKJV.db"
+        "csv": "formats/csv/RNKJV.csv",
+        "json": "formats/json/RNKJV.json",
+        "yaml": "formats/yaml/RNKJV.yaml",
+        "sql": "formats/sql/RNKJV.sql",
+        "md": "formats/md/RNKJV.md",
+        "txt": "formats/txt/RNKJV.txt",
+        "sqlite": "formats/sqlite/RNKJV.db"
       }
     },
     {
       "version": "RWebster",
       "name": "Revised Webster Version (1833)",
       "files": {
-        "csv": "/formats/csv/RWebster.csv",
-        "json": "/formats/json/RWebster.json",
-        "yaml": "/formats/yaml/RWebster.yaml",
-        "sql": "/formats/sql/RWebster.sql",
-        "md": "/formats/md/RWebster.md",
-        "txt": "/formats/txt/RWebster.txt",
-        "sqlite": "/formats/sqlite/RWebster.db"
+        "csv": "formats/csv/RWebster.csv",
+        "json": "formats/json/RWebster.json",
+        "yaml": "formats/yaml/RWebster.yaml",
+        "sql": "formats/sql/RWebster.sql",
+        "md": "formats/md/RWebster.md",
+        "txt": "formats/txt/RWebster.txt",
+        "sqlite": "formats/sqlite/RWebster.db"
       }
     },
     {
       "version": "Rotherham",
       "name": "The Emphasised Bible by J. B. Rotherham",
       "files": {
-        "csv": "/formats/csv/Rotherham.csv",
-        "json": "/formats/json/Rotherham.json",
-        "yaml": "/formats/yaml/Rotherham.yaml",
-        "sql": "/formats/sql/Rotherham.sql",
-        "md": "/formats/md/Rotherham.md",
-        "txt": "/formats/txt/Rotherham.txt",
-        "sqlite": "/formats/sqlite/Rotherham.db"
+        "csv": "formats/csv/Rotherham.csv",
+        "json": "formats/json/Rotherham.json",
+        "yaml": "formats/yaml/Rotherham.yaml",
+        "sql": "formats/sql/Rotherham.sql",
+        "md": "formats/md/Rotherham.md",
+        "txt": "formats/txt/Rotherham.txt",
+        "sqlite": "formats/sqlite/Rotherham.db"
       }
     },
     {
       "version": "Twenty",
       "name": "Twentieth Century New Testament",
       "files": {
-        "csv": "/formats/csv/Twenty.csv",
-        "json": "/formats/json/Twenty.json",
-        "yaml": "/formats/yaml/Twenty.yaml",
-        "sql": "/formats/sql/Twenty.sql",
-        "md": "/formats/md/Twenty.md",
-        "txt": "/formats/txt/Twenty.txt",
-        "sqlite": "/formats/sqlite/Twenty.db"
+        "csv": "formats/csv/Twenty.csv",
+        "json": "formats/json/Twenty.json",
+        "yaml": "formats/yaml/Twenty.yaml",
+        "sql": "formats/sql/Twenty.sql",
+        "md": "formats/md/Twenty.md",
+        "txt": "formats/txt/Twenty.txt",
+        "sqlite": "formats/sqlite/Twenty.db"
       }
     },
     {
       "version": "Tyndale",
       "name": "William Tyndale Bible (1525/1530)",
       "files": {
-        "csv": "/formats/csv/Tyndale.csv",
-        "json": "/formats/json/Tyndale.json",
-        "yaml": "/formats/yaml/Tyndale.yaml",
-        "sql": "/formats/sql/Tyndale.sql",
-        "md": "/formats/md/Tyndale.md",
-        "txt": "/formats/txt/Tyndale.txt",
-        "sqlite": "/formats/sqlite/Tyndale.db"
+        "csv": "formats/csv/Tyndale.csv",
+        "json": "formats/json/Tyndale.json",
+        "yaml": "formats/yaml/Tyndale.yaml",
+        "sql": "formats/sql/Tyndale.sql",
+        "md": "formats/md/Tyndale.md",
+        "txt": "formats/txt/Tyndale.txt",
+        "sqlite": "formats/sqlite/Tyndale.db"
       }
     },
     {
       "version": "UKJV",
       "name": "Updated King James Version",
       "files": {
-        "csv": "/formats/csv/UKJV.csv",
-        "json": "/formats/json/UKJV.json",
-        "yaml": "/formats/yaml/UKJV.yaml",
-        "sql": "/formats/sql/UKJV.sql",
-        "md": "/formats/md/UKJV.md",
-        "txt": "/formats/txt/UKJV.txt",
-        "sqlite": "/formats/sqlite/UKJV.db"
+        "csv": "formats/csv/UKJV.csv",
+        "json": "formats/json/UKJV.json",
+        "yaml": "formats/yaml/UKJV.yaml",
+        "sql": "formats/sql/UKJV.sql",
+        "md": "formats/md/UKJV.md",
+        "txt": "formats/txt/UKJV.txt",
+        "sqlite": "formats/sqlite/UKJV.db"
       }
     },
     {
       "version": "Webster",
       "name": "Webster Bible",
       "files": {
-        "csv": "/formats/csv/Webster.csv",
-        "json": "/formats/json/Webster.json",
-        "yaml": "/formats/yaml/Webster.yaml",
-        "sql": "/formats/sql/Webster.sql",
-        "md": "/formats/md/Webster.md",
-        "txt": "/formats/txt/Webster.txt",
-        "sqlite": "/formats/sqlite/Webster.db"
+        "csv": "formats/csv/Webster.csv",
+        "json": "formats/json/Webster.json",
+        "yaml": "formats/yaml/Webster.yaml",
+        "sql": "formats/sql/Webster.sql",
+        "md": "formats/md/Webster.md",
+        "txt": "formats/txt/Webster.txt",
+        "sqlite": "formats/sqlite/Webster.db"
       }
     },
     {
       "version": "YLT",
       "name": "Young's Literal Translation (1898)",
       "files": {
-        "csv": "/formats/csv/YLT.csv",
-        "json": "/formats/json/YLT.json",
-        "yaml": "/formats/yaml/YLT.yaml",
-        "sql": "/formats/sql/YLT.sql",
-        "md": "/formats/md/YLT.md",
-        "txt": "/formats/txt/YLT.txt",
-        "sqlite": "/formats/sqlite/YLT.db"
+        "csv": "formats/csv/YLT.csv",
+        "json": "formats/json/YLT.json",
+        "yaml": "formats/yaml/YLT.yaml",
+        "sql": "formats/sql/YLT.sql",
+        "md": "formats/md/YLT.md",
+        "txt": "formats/txt/YLT.txt",
+        "sqlite": "formats/sqlite/YLT.db"
       }
     }
   ],
@@ -449,13 +449,13 @@
       "version": "Alb",
       "name": "Albanian Bible",
       "files": {
-        "csv": "/formats/csv/Alb.csv",
-        "json": "/formats/json/Alb.json",
-        "yaml": "/formats/yaml/Alb.yaml",
-        "sql": "/formats/sql/Alb.sql",
-        "md": "/formats/md/Alb.md",
-        "txt": "/formats/txt/Alb.txt",
-        "sqlite": "/formats/sqlite/Alb.db"
+        "csv": "formats/csv/Alb.csv",
+        "json": "formats/json/Alb.json",
+        "yaml": "formats/yaml/Alb.yaml",
+        "sql": "formats/sql/Alb.sql",
+        "md": "formats/md/Alb.md",
+        "txt": "formats/txt/Alb.txt",
+        "sqlite": "formats/sqlite/Alb.db"
       }
     }
   ],
@@ -464,13 +464,13 @@
       "version": "ArmEastern",
       "name": "Eastern Armenian Bible",
       "files": {
-        "csv": "/formats/csv/ArmEastern.csv",
-        "json": "/formats/json/ArmEastern.json",
-        "yaml": "/formats/yaml/ArmEastern.yaml",
-        "sql": "/formats/sql/ArmEastern.sql",
-        "md": "/formats/md/ArmEastern.md",
-        "txt": "/formats/txt/ArmEastern.txt",
-        "sqlite": "/formats/sqlite/ArmEastern.db"
+        "csv": "formats/csv/ArmEastern.csv",
+        "json": "formats/json/ArmEastern.json",
+        "yaml": "formats/yaml/ArmEastern.yaml",
+        "sql": "formats/sql/ArmEastern.sql",
+        "md": "formats/md/ArmEastern.md",
+        "txt": "formats/txt/ArmEastern.txt",
+        "sqlite": "formats/sqlite/ArmEastern.db"
       }
     }
   ],
@@ -479,13 +479,13 @@
       "version": "BeaMRK",
       "name": "The Gospel of Mark in Beaver (Danezaa)",
       "files": {
-        "csv": "/formats/csv/BeaMRK.csv",
-        "json": "/formats/json/BeaMRK.json",
-        "yaml": "/formats/yaml/BeaMRK.yaml",
-        "sql": "/formats/sql/BeaMRK.sql",
-        "md": "/formats/md/BeaMRK.md",
-        "txt": "/formats/txt/BeaMRK.txt",
-        "sqlite": "/formats/sqlite/BeaMRK.db"
+        "csv": "formats/csv/BeaMRK.csv",
+        "json": "formats/json/BeaMRK.json",
+        "yaml": "formats/yaml/BeaMRK.yaml",
+        "sql": "formats/sql/BeaMRK.sql",
+        "md": "formats/md/BeaMRK.md",
+        "txt": "formats/txt/BeaMRK.txt",
+        "sqlite": "formats/sqlite/BeaMRK.db"
       }
     }
   ],
@@ -494,13 +494,13 @@
       "version": "BurJudson",
       "name": "1835 Judson Burmese Bible",
       "files": {
-        "csv": "/formats/csv/BurJudson.csv",
-        "json": "/formats/json/BurJudson.json",
-        "yaml": "/formats/yaml/BurJudson.yaml",
-        "sql": "/formats/sql/BurJudson.sql",
-        "md": "/formats/md/BurJudson.md",
-        "txt": "/formats/txt/BurJudson.txt",
-        "sqlite": "/formats/sqlite/BurJudson.db"
+        "csv": "formats/csv/BurJudson.csv",
+        "json": "formats/json/BurJudson.json",
+        "yaml": "formats/yaml/BurJudson.yaml",
+        "sql": "formats/sql/BurJudson.sql",
+        "md": "formats/md/BurJudson.md",
+        "txt": "formats/txt/BurJudson.txt",
+        "sqlite": "formats/sqlite/BurJudson.db"
       }
     }
   ],
@@ -509,39 +509,39 @@
       "version": "Byz",
       "name": "The New Testament in the Original Greek: Byzantine Textform 2013",
       "files": {
-        "csv": "/formats/csv/Byz.csv",
-        "json": "/formats/json/Byz.json",
-        "yaml": "/formats/yaml/Byz.yaml",
-        "sql": "/formats/sql/Byz.sql",
-        "md": "/formats/md/Byz.md",
-        "txt": "/formats/txt/Byz.txt",
-        "sqlite": "/formats/sqlite/Byz.db"
+        "csv": "formats/csv/Byz.csv",
+        "json": "formats/json/Byz.json",
+        "yaml": "formats/yaml/Byz.yaml",
+        "sql": "formats/sql/Byz.sql",
+        "md": "formats/md/Byz.md",
+        "txt": "formats/txt/Byz.txt",
+        "sqlite": "formats/sqlite/Byz.db"
       }
     },
     {
       "version": "StatResGNT",
       "name": "Statistical Restoration Greek New Testament",
       "files": {
-        "csv": "/formats/csv/StatResGNT.csv",
-        "json": "/formats/json/StatResGNT.json",
-        "yaml": "/formats/yaml/StatResGNT.yaml",
-        "sql": "/formats/sql/StatResGNT.sql",
-        "md": "/formats/md/StatResGNT.md",
-        "txt": "/formats/txt/StatResGNT.txt",
-        "sqlite": "/formats/sqlite/StatResGNT.db"
+        "csv": "formats/csv/StatResGNT.csv",
+        "json": "formats/json/StatResGNT.json",
+        "yaml": "formats/yaml/StatResGNT.yaml",
+        "sql": "formats/sql/StatResGNT.sql",
+        "md": "formats/md/StatResGNT.md",
+        "txt": "formats/txt/StatResGNT.txt",
+        "sqlite": "formats/sqlite/StatResGNT.db"
       }
     },
     {
       "version": "TR",
       "name": "Textus Receptus (1550/1894)",
       "files": {
-        "csv": "/formats/csv/TR.csv",
-        "json": "/formats/json/TR.json",
-        "yaml": "/formats/yaml/TR.yaml",
-        "sql": "/formats/sql/TR.sql",
-        "md": "/formats/md/TR.md",
-        "txt": "/formats/txt/TR.txt",
-        "sqlite": "/formats/sqlite/TR.db"
+        "csv": "formats/csv/TR.csv",
+        "json": "formats/json/TR.json",
+        "yaml": "formats/yaml/TR.yaml",
+        "sql": "formats/sql/TR.sql",
+        "md": "formats/md/TR.md",
+        "txt": "formats/txt/TR.txt",
+        "sqlite": "formats/sqlite/TR.db"
       }
     }
   ],
@@ -550,13 +550,13 @@
       "version": "CSlElizabeth",
       "name": "1757 Church Slavonic Elizabeth Bible",
       "files": {
-        "csv": "/formats/csv/CSlElizabeth.csv",
-        "json": "/formats/json/CSlElizabeth.json",
-        "yaml": "/formats/yaml/CSlElizabeth.yaml",
-        "sql": "/formats/sql/CSlElizabeth.sql",
-        "md": "/formats/md/CSlElizabeth.md",
-        "txt": "/formats/txt/CSlElizabeth.txt",
-        "sqlite": "/formats/sqlite/CSlElizabeth.db"
+        "csv": "formats/csv/CSlElizabeth.csv",
+        "json": "formats/json/CSlElizabeth.json",
+        "yaml": "formats/yaml/CSlElizabeth.yaml",
+        "sql": "formats/sql/CSlElizabeth.sql",
+        "md": "formats/md/CSlElizabeth.md",
+        "txt": "formats/txt/CSlElizabeth.txt",
+        "sqlite": "formats/sqlite/CSlElizabeth.db"
       }
     }
   ],
@@ -565,13 +565,13 @@
       "version": "CebPinadayag",
       "name": "Cebuano Pinadayag",
       "files": {
-        "csv": "/formats/csv/CebPinadayag.csv",
-        "json": "/formats/json/CebPinadayag.json",
-        "yaml": "/formats/yaml/CebPinadayag.yaml",
-        "sql": "/formats/sql/CebPinadayag.sql",
-        "md": "/formats/md/CebPinadayag.md",
-        "txt": "/formats/txt/CebPinadayag.txt",
-        "sqlite": "/formats/sqlite/CebPinadayag.db"
+        "csv": "formats/csv/CebPinadayag.csv",
+        "json": "formats/json/CebPinadayag.json",
+        "yaml": "formats/yaml/CebPinadayag.yaml",
+        "sql": "formats/sql/CebPinadayag.sql",
+        "md": "formats/md/CebPinadayag.md",
+        "txt": "formats/txt/CebPinadayag.txt",
+        "sqlite": "formats/sqlite/CebPinadayag.db"
       }
     }
   ],
@@ -580,65 +580,65 @@
       "version": "Che1860",
       "name": "Cherokee New Testament (1860) with Sequoyah transliterated forms",
       "files": {
-        "csv": "/formats/csv/Che1860.csv",
-        "json": "/formats/json/Che1860.json",
-        "yaml": "/formats/yaml/Che1860.yaml",
-        "sql": "/formats/sql/Che1860.sql",
-        "md": "/formats/md/Che1860.md",
-        "txt": "/formats/txt/Che1860.txt",
-        "sqlite": "/formats/sqlite/Che1860.db"
+        "csv": "formats/csv/Che1860.csv",
+        "json": "formats/json/Che1860.json",
+        "yaml": "formats/yaml/Che1860.yaml",
+        "sql": "formats/sql/Che1860.sql",
+        "md": "formats/md/Che1860.md",
+        "txt": "formats/txt/Che1860.txt",
+        "sqlite": "formats/sqlite/Che1860.db"
       }
     }
   ],
   "zh-hans": [
     {
       "version": "ChiUns",
-      "name": "和合本 (简体字)",
+      "name": "\u548c\u5408\u672c (\u7b80\u4f53\u5b57)",
       "files": {
-        "json": "/formats/json/ChiUns.json",
-        "sql": "/formats/sql/ChiUns.sql",
-        "md": "/formats/md/ChiUns.md"
+        "json": "formats/json/ChiUns.json",
+        "sql": "formats/sql/ChiUns.sql",
+        "md": "formats/md/ChiUns.md"
       }
     }
   ],
   "zh-hant": [
     {
       "version": "ChiSB",
-      "name": "思高本 (Sīgāo Běn), 聖經：思高聖經學會譯釋",
+      "name": "\u601d\u9ad8\u672c (S\u012bg\u0101o B\u011bn), \u8056\u7d93\uff1a\u601d\u9ad8\u8056\u7d93\u5b78\u6703\u8b6f\u91cb",
       "files": {
-        "csv": "/formats/csv/ChiSB.csv",
-        "json": "/formats/json/ChiSB.json",
-        "yaml": "/formats/yaml/ChiSB.yaml",
-        "sql": "/formats/sql/ChiSB.sql",
-        "md": "/formats/md/ChiSB.md",
-        "txt": "/formats/txt/ChiSB.txt",
-        "sqlite": "/formats/sqlite/ChiSB.db"
+        "csv": "formats/csv/ChiSB.csv",
+        "json": "formats/json/ChiSB.json",
+        "yaml": "formats/yaml/ChiSB.yaml",
+        "sql": "formats/sql/ChiSB.sql",
+        "md": "formats/md/ChiSB.md",
+        "txt": "formats/txt/ChiSB.txt",
+        "sqlite": "formats/sqlite/ChiSB.db"
       }
     },
     {
       "version": "ChiUn",
-      "name": "和合本 (繁體字)",
+      "name": "\u548c\u5408\u672c (\u7e41\u9ad4\u5b57)",
       "files": {
-        "csv": "/formats/csv/ChiUn.csv",
-        "json": "/formats/json/ChiUn.json",
-        "yaml": "/formats/yaml/ChiUn.yaml",
-        "sql": "/formats/sql/ChiUn.sql",
-        "md": "/formats/md/ChiUn.md",
-        "txt": "/formats/txt/ChiUn.txt",
-        "sqlite": "/formats/sqlite/ChiUn.db"
+        "csv": "formats/csv/ChiUn.csv",
+        "json": "formats/json/ChiUn.json",
+        "yaml": "formats/yaml/ChiUn.yaml",
+        "sql": "formats/sql/ChiUn.sql",
+        "md": "formats/md/ChiUn.md",
+        "txt": "formats/txt/ChiUn.txt",
+        "sqlite": "formats/sqlite/ChiUn.db"
       }
     },
     {
       "version": "ChiUnL",
-      "name": "聖經 (文理和合)",
+      "name": "\u8056\u7d93 (\u6587\u7406\u548c\u5408)",
       "files": {
-        "csv": "/formats/csv/ChiUnL.csv",
-        "json": "/formats/json/ChiUnL.json",
-        "yaml": "/formats/yaml/ChiUnL.yaml",
-        "sql": "/formats/sql/ChiUnL.sql",
-        "md": "/formats/md/ChiUnL.md",
-        "txt": "/formats/txt/ChiUnL.txt",
-        "sqlite": "/formats/sqlite/ChiUnL.db"
+        "csv": "formats/csv/ChiUnL.csv",
+        "json": "formats/json/ChiUnL.json",
+        "yaml": "formats/yaml/ChiUnL.yaml",
+        "sql": "formats/sql/ChiUnL.sql",
+        "md": "formats/md/ChiUnL.md",
+        "txt": "formats/txt/ChiUnL.txt",
+        "sqlite": "formats/sqlite/ChiUnL.db"
       }
     }
   ],
@@ -647,28 +647,28 @@
       "version": "CopSahBible2",
       "name": "Sahidic Bible 2",
       "files": {
-        "csv": "/formats/csv/CopSahBible2.csv",
-        "json": "/formats/json/CopSahBible2.json",
-        "yaml": "/formats/yaml/CopSahBible2.yaml",
-        "sql": "/formats/sql/CopSahBible2.sql",
-        "md": "/formats/md/CopSahBible2.md",
-        "txt": "/formats/txt/CopSahBible2.txt",
-        "sqlite": "/formats/sqlite/CopSahBible2.db"
+        "csv": "formats/csv/CopSahBible2.csv",
+        "json": "formats/json/CopSahBible2.json",
+        "yaml": "formats/yaml/CopSahBible2.yaml",
+        "sql": "formats/sql/CopSahBible2.sql",
+        "md": "formats/md/CopSahBible2.md",
+        "txt": "formats/txt/CopSahBible2.txt",
+        "sqlite": "formats/sqlite/CopSahBible2.db"
       }
     }
   ],
   "hr": [
     {
       "version": "CroSaric",
-      "name": "Hrvatska Biblija Ivana Šarića",
+      "name": "Hrvatska Biblija Ivana \u0160ari\u0107a",
       "files": {
-        "csv": "/formats/csv/CroSaric.csv",
-        "json": "/formats/json/CroSaric.json",
-        "yaml": "/formats/yaml/CroSaric.yaml",
-        "sql": "/formats/sql/CroSaric.sql",
-        "md": "/formats/md/CroSaric.md",
-        "txt": "/formats/txt/CroSaric.txt",
-        "sqlite": "/formats/sqlite/CroSaric.db"
+        "csv": "formats/csv/CroSaric.csv",
+        "json": "formats/json/CroSaric.json",
+        "yaml": "formats/yaml/CroSaric.yaml",
+        "sql": "formats/sql/CroSaric.sql",
+        "md": "formats/md/CroSaric.md",
+        "txt": "formats/txt/CroSaric.txt",
+        "sqlite": "formats/sqlite/CroSaric.db"
       }
     }
   ],
@@ -677,26 +677,26 @@
       "version": "CzeBKR",
       "name": "Czech Bible Kralicka",
       "files": {
-        "csv": "/formats/csv/CzeBKR.csv",
-        "json": "/formats/json/CzeBKR.json",
-        "yaml": "/formats/yaml/CzeBKR.yaml",
-        "sql": "/formats/sql/CzeBKR.sql",
-        "md": "/formats/md/CzeBKR.md",
-        "txt": "/formats/txt/CzeBKR.txt",
-        "sqlite": "/formats/sqlite/CzeBKR.db"
+        "csv": "formats/csv/CzeBKR.csv",
+        "json": "formats/json/CzeBKR.json",
+        "yaml": "formats/yaml/CzeBKR.yaml",
+        "sql": "formats/sql/CzeBKR.sql",
+        "md": "formats/md/CzeBKR.md",
+        "txt": "formats/txt/CzeBKR.txt",
+        "sqlite": "formats/sqlite/CzeBKR.db"
       }
     },
     {
       "version": "CzeCSP",
-      "name": "Czech Český studijní překlad",
+      "name": "Czech \u010cesk\u00fd studijn\u00ed p\u0159eklad",
       "files": {
-        "csv": "/formats/csv/CzeCSP.csv",
-        "json": "/formats/json/CzeCSP.json",
-        "yaml": "/formats/yaml/CzeCSP.yaml",
-        "sql": "/formats/sql/CzeCSP.sql",
-        "md": "/formats/md/CzeCSP.md",
-        "txt": "/formats/txt/CzeCSP.txt",
-        "sqlite": "/formats/sqlite/CzeCSP.db"
+        "csv": "formats/csv/CzeCSP.csv",
+        "json": "formats/json/CzeCSP.json",
+        "yaml": "formats/yaml/CzeCSP.yaml",
+        "sql": "formats/sql/CzeCSP.sql",
+        "md": "formats/md/CzeCSP.md",
+        "txt": "formats/txt/CzeCSP.txt",
+        "sqlite": "formats/sqlite/CzeCSP.db"
       }
     }
   ],
@@ -705,13 +705,13 @@
       "version": "DaOT1871NT1907",
       "name": "Danish OT1871 + NT1907 with original orthography",
       "files": {
-        "csv": "/formats/csv/DaOT1871NT1907.csv",
-        "json": "/formats/json/DaOT1871NT1907.json",
-        "yaml": "/formats/yaml/DaOT1871NT1907.yaml",
-        "sql": "/formats/sql/DaOT1871NT1907.sql",
-        "md": "/formats/md/DaOT1871NT1907.md",
-        "txt": "/formats/txt/DaOT1871NT1907.txt",
-        "sqlite": "/formats/sqlite/DaOT1871NT1907.db"
+        "csv": "formats/csv/DaOT1871NT1907.csv",
+        "json": "formats/json/DaOT1871NT1907.json",
+        "yaml": "formats/yaml/DaOT1871NT1907.yaml",
+        "sql": "formats/sql/DaOT1871NT1907.sql",
+        "md": "formats/md/DaOT1871NT1907.md",
+        "txt": "formats/txt/DaOT1871NT1907.txt",
+        "sqlite": "formats/sqlite/DaOT1871NT1907.db"
       }
     }
   ],
@@ -720,39 +720,39 @@
       "version": "DutSVV",
       "name": "Dutch Statenvertaling Bijbel",
       "files": {
-        "csv": "/formats/csv/DutSVV.csv",
-        "json": "/formats/json/DutSVV.json",
-        "yaml": "/formats/yaml/DutSVV.yaml",
-        "sql": "/formats/sql/DutSVV.sql",
-        "md": "/formats/md/DutSVV.md",
-        "txt": "/formats/txt/DutSVV.txt",
-        "sqlite": "/formats/sqlite/DutSVV.db"
+        "csv": "formats/csv/DutSVV.csv",
+        "json": "formats/json/DutSVV.json",
+        "yaml": "formats/yaml/DutSVV.yaml",
+        "sql": "formats/sql/DutSVV.sql",
+        "md": "formats/md/DutSVV.md",
+        "txt": "formats/txt/DutSVV.txt",
+        "sqlite": "formats/sqlite/DutSVV.db"
       }
     },
     {
       "version": "DutSVVA",
       "name": "De ganse Heilige Schrift bevattende al de kanonieke boeken van het Oude en Nieuwe Testament, met de apocriefe (deuterocanonieke) boeken",
       "files": {
-        "csv": "/formats/csv/DutSVVA.csv",
-        "json": "/formats/json/DutSVVA.json",
-        "yaml": "/formats/yaml/DutSVVA.yaml",
-        "sql": "/formats/sql/DutSVVA.sql",
-        "md": "/formats/md/DutSVVA.md",
-        "txt": "/formats/txt/DutSVVA.txt",
-        "sqlite": "/formats/sqlite/DutSVVA.db"
+        "csv": "formats/csv/DutSVVA.csv",
+        "json": "formats/json/DutSVVA.json",
+        "yaml": "formats/yaml/DutSVVA.yaml",
+        "sql": "formats/sql/DutSVVA.sql",
+        "md": "formats/md/DutSVVA.md",
+        "txt": "formats/txt/DutSVVA.txt",
+        "sqlite": "formats/sqlite/DutSVVA.db"
       }
     },
     {
       "version": "NlCanisius1939",
       "name": "Petrus Canisius Translation",
       "files": {
-        "csv": "/formats/csv/NlCanisius1939.csv",
-        "json": "/formats/json/NlCanisius1939.json",
-        "yaml": "/formats/yaml/NlCanisius1939.yaml",
-        "sql": "/formats/sql/NlCanisius1939.sql",
-        "md": "/formats/md/NlCanisius1939.md",
-        "txt": "/formats/txt/NlCanisius1939.txt",
-        "sqlite": "/formats/sqlite/NlCanisius1939.db"
+        "csv": "formats/csv/NlCanisius1939.csv",
+        "json": "formats/json/NlCanisius1939.json",
+        "yaml": "formats/yaml/NlCanisius1939.yaml",
+        "sql": "formats/sql/NlCanisius1939.sql",
+        "md": "formats/md/NlCanisius1939.md",
+        "txt": "formats/txt/NlCanisius1939.txt",
+        "sqlite": "formats/sqlite/NlCanisius1939.db"
       }
     }
   ],
@@ -761,13 +761,13 @@
       "version": "Esperanto",
       "name": "Esperanto Londona Biblio",
       "files": {
-        "csv": "/formats/csv/Esperanto.csv",
-        "json": "/formats/json/Esperanto.json",
-        "yaml": "/formats/yaml/Esperanto.yaml",
-        "sql": "/formats/sql/Esperanto.sql",
-        "md": "/formats/md/Esperanto.md",
-        "txt": "/formats/txt/Esperanto.txt",
-        "sqlite": "/formats/sqlite/Esperanto.db"
+        "csv": "formats/csv/Esperanto.csv",
+        "json": "formats/json/Esperanto.json",
+        "yaml": "formats/yaml/Esperanto.yaml",
+        "sql": "formats/sql/Esperanto.sql",
+        "md": "formats/md/Esperanto.md",
+        "txt": "formats/txt/Esperanto.txt",
+        "sqlite": "formats/sqlite/Esperanto.db"
       }
     }
   ],
@@ -776,13 +776,13 @@
       "version": "Est",
       "name": "Estonian Bible",
       "files": {
-        "csv": "/formats/csv/Est.csv",
-        "json": "/formats/json/Est.json",
-        "yaml": "/formats/yaml/Est.yaml",
-        "sql": "/formats/sql/Est.sql",
-        "md": "/formats/md/Est.md",
-        "txt": "/formats/txt/Est.txt",
-        "sqlite": "/formats/sqlite/Est.db"
+        "csv": "formats/csv/Est.csv",
+        "json": "formats/json/Est.json",
+        "yaml": "formats/yaml/Est.yaml",
+        "sql": "formats/sql/Est.sql",
+        "md": "formats/md/Est.md",
+        "txt": "formats/txt/Est.txt",
+        "sqlite": "formats/sqlite/Est.db"
       }
     }
   ],
@@ -791,39 +791,39 @@
       "version": "FinBiblia",
       "name": "Finnish Biblia (1776)",
       "files": {
-        "csv": "/formats/csv/FinBiblia.csv",
-        "json": "/formats/json/FinBiblia.json",
-        "yaml": "/formats/yaml/FinBiblia.yaml",
-        "sql": "/formats/sql/FinBiblia.sql",
-        "md": "/formats/md/FinBiblia.md",
-        "txt": "/formats/txt/FinBiblia.txt",
-        "sqlite": "/formats/sqlite/FinBiblia.db"
+        "csv": "formats/csv/FinBiblia.csv",
+        "json": "formats/json/FinBiblia.json",
+        "yaml": "formats/yaml/FinBiblia.yaml",
+        "sql": "formats/sql/FinBiblia.sql",
+        "md": "formats/md/FinBiblia.md",
+        "txt": "formats/txt/FinBiblia.txt",
+        "sqlite": "formats/sqlite/FinBiblia.db"
       }
     },
     {
       "version": "FinPR",
-      "name": "Finnish Pyhä Raamattu (1933/1938)",
+      "name": "Finnish Pyh\u00e4 Raamattu (1933/1938)",
       "files": {
-        "csv": "/formats/csv/FinPR.csv",
-        "json": "/formats/json/FinPR.json",
-        "yaml": "/formats/yaml/FinPR.yaml",
-        "sql": "/formats/sql/FinPR.sql",
-        "md": "/formats/md/FinPR.md",
-        "txt": "/formats/txt/FinPR.txt",
-        "sqlite": "/formats/sqlite/FinPR.db"
+        "csv": "formats/csv/FinPR.csv",
+        "json": "formats/json/FinPR.json",
+        "yaml": "formats/yaml/FinPR.yaml",
+        "sql": "formats/sql/FinPR.sql",
+        "md": "formats/md/FinPR.md",
+        "txt": "formats/txt/FinPR.txt",
+        "sqlite": "formats/sqlite/FinPR.db"
       }
     },
     {
       "version": "FinSTLK2017",
-      "name": "Pyhä Raamattu (STLK 2017)",
+      "name": "Pyh\u00e4 Raamattu (STLK 2017)",
       "files": {
-        "csv": "/formats/csv/FinSTLK2017.csv",
-        "json": "/formats/json/FinSTLK2017.json",
-        "yaml": "/formats/yaml/FinSTLK2017.yaml",
-        "sql": "/formats/sql/FinSTLK2017.sql",
-        "md": "/formats/md/FinSTLK2017.md",
-        "txt": "/formats/txt/FinSTLK2017.txt",
-        "sqlite": "/formats/sqlite/FinSTLK2017.db"
+        "csv": "formats/csv/FinSTLK2017.csv",
+        "json": "formats/json/FinSTLK2017.json",
+        "yaml": "formats/yaml/FinSTLK2017.yaml",
+        "sql": "formats/sql/FinSTLK2017.sql",
+        "md": "formats/md/FinSTLK2017.md",
+        "txt": "formats/txt/FinSTLK2017.txt",
+        "sqlite": "formats/sqlite/FinSTLK2017.db"
       }
     }
   ],
@@ -832,143 +832,143 @@
       "version": "FreBBB",
       "name": "French Bible Bovet Bonnet (1900)",
       "files": {
-        "csv": "/formats/csv/FreBBB.csv",
-        "json": "/formats/json/FreBBB.json",
-        "yaml": "/formats/yaml/FreBBB.yaml",
-        "sql": "/formats/sql/FreBBB.sql",
-        "md": "/formats/md/FreBBB.md",
-        "txt": "/formats/txt/FreBBB.txt",
-        "sqlite": "/formats/sqlite/FreBBB.db"
+        "csv": "formats/csv/FreBBB.csv",
+        "json": "formats/json/FreBBB.json",
+        "yaml": "formats/yaml/FreBBB.yaml",
+        "sql": "formats/sql/FreBBB.sql",
+        "md": "formats/md/FreBBB.md",
+        "txt": "formats/txt/FreBBB.txt",
+        "sqlite": "formats/sqlite/FreBBB.db"
       }
     },
     {
       "version": "FreBDM1744",
       "name": "Bible David Martin (1744)",
       "files": {
-        "csv": "/formats/csv/FreBDM1744.csv",
-        "json": "/formats/json/FreBDM1744.json",
-        "yaml": "/formats/yaml/FreBDM1744.yaml",
-        "sql": "/formats/sql/FreBDM1744.sql",
-        "md": "/formats/md/FreBDM1744.md",
-        "txt": "/formats/txt/FreBDM1744.txt",
-        "sqlite": "/formats/sqlite/FreBDM1744.db"
+        "csv": "formats/csv/FreBDM1744.csv",
+        "json": "formats/json/FreBDM1744.json",
+        "yaml": "formats/yaml/FreBDM1744.yaml",
+        "sql": "formats/sql/FreBDM1744.sql",
+        "md": "formats/md/FreBDM1744.md",
+        "txt": "formats/txt/FreBDM1744.txt",
+        "sqlite": "formats/sqlite/FreBDM1744.db"
       }
     },
     {
       "version": "FreCrampon",
       "name": "La Bible Augustin Crampon 1923",
       "files": {
-        "csv": "/formats/csv/FreCrampon.csv",
-        "json": "/formats/json/FreCrampon.json",
-        "yaml": "/formats/yaml/FreCrampon.yaml",
-        "sql": "/formats/sql/FreCrampon.sql",
-        "md": "/formats/md/FreCrampon.md",
-        "txt": "/formats/txt/FreCrampon.txt",
-        "sqlite": "/formats/sqlite/FreCrampon.db"
+        "csv": "formats/csv/FreCrampon.csv",
+        "json": "formats/json/FreCrampon.json",
+        "yaml": "formats/yaml/FreCrampon.yaml",
+        "sql": "formats/sql/FreCrampon.sql",
+        "md": "formats/md/FreCrampon.md",
+        "txt": "formats/txt/FreCrampon.txt",
+        "sqlite": "formats/sqlite/FreCrampon.db"
       }
     },
     {
       "version": "FreGeneve1669",
-      "name": "Le Nouveau Testament de la Bible de Genève de 1669",
+      "name": "Le Nouveau Testament de la Bible de Gen\u00e8ve de 1669",
       "files": {
-        "csv": "/formats/csv/FreGeneve1669.csv",
-        "json": "/formats/json/FreGeneve1669.json",
-        "yaml": "/formats/yaml/FreGeneve1669.yaml",
-        "sql": "/formats/sql/FreGeneve1669.sql",
-        "md": "/formats/md/FreGeneve1669.md",
-        "txt": "/formats/txt/FreGeneve1669.txt",
-        "sqlite": "/formats/sqlite/FreGeneve1669.db"
+        "csv": "formats/csv/FreGeneve1669.csv",
+        "json": "formats/json/FreGeneve1669.json",
+        "yaml": "formats/yaml/FreGeneve1669.yaml",
+        "sql": "formats/sql/FreGeneve1669.sql",
+        "md": "formats/md/FreGeneve1669.md",
+        "txt": "formats/txt/FreGeneve1669.txt",
+        "sqlite": "formats/sqlite/FreGeneve1669.db"
       }
     },
     {
       "version": "FreJND",
       "name": "Bible J.N. Darby in French with Strong's numbers",
       "files": {
-        "csv": "/formats/csv/FreJND.csv",
-        "json": "/formats/json/FreJND.json",
-        "yaml": "/formats/yaml/FreJND.yaml",
-        "sql": "/formats/sql/FreJND.sql",
-        "md": "/formats/md/FreJND.md",
-        "txt": "/formats/txt/FreJND.txt",
-        "sqlite": "/formats/sqlite/FreJND.db"
+        "csv": "formats/csv/FreJND.csv",
+        "json": "formats/json/FreJND.json",
+        "yaml": "formats/yaml/FreJND.yaml",
+        "sql": "formats/sql/FreJND.sql",
+        "md": "formats/md/FreJND.md",
+        "txt": "formats/txt/FreJND.txt",
+        "sqlite": "formats/sqlite/FreJND.db"
       }
     },
     {
       "version": "FreLXX",
       "name": "Traduction de la LXX par P. GIGUET et autres traducteurs, 1872.",
       "files": {
-        "csv": "/formats/csv/FreLXX.csv",
-        "json": "/formats/json/FreLXX.json",
-        "yaml": "/formats/yaml/FreLXX.yaml",
-        "sql": "/formats/sql/FreLXX.sql",
-        "md": "/formats/md/FreLXX.md",
-        "txt": "/formats/txt/FreLXX.txt",
-        "sqlite": "/formats/sqlite/FreLXX.db"
+        "csv": "formats/csv/FreLXX.csv",
+        "json": "formats/json/FreLXX.json",
+        "yaml": "formats/yaml/FreLXX.yaml",
+        "sql": "formats/sql/FreLXX.sql",
+        "md": "formats/md/FreLXX.md",
+        "txt": "formats/txt/FreLXX.txt",
+        "sqlite": "formats/sqlite/FreLXX.db"
       }
     },
     {
       "version": "FreLXXGiguet",
       "name": "Traduction de la LXX par Pierre GIGUET et autres traducteurs, 1872.",
       "files": {
-        "csv": "/formats/csv/FreLXXGiguet.csv",
-        "json": "/formats/json/FreLXXGiguet.json",
-        "yaml": "/formats/yaml/FreLXXGiguet.yaml",
-        "sql": "/formats/sql/FreLXXGiguet.sql",
-        "md": "/formats/md/FreLXXGiguet.md",
-        "txt": "/formats/txt/FreLXXGiguet.txt",
-        "sqlite": "/formats/sqlite/FreLXXGiguet.db"
+        "csv": "formats/csv/FreLXXGiguet.csv",
+        "json": "formats/json/FreLXXGiguet.json",
+        "yaml": "formats/yaml/FreLXXGiguet.yaml",
+        "sql": "formats/sql/FreLXXGiguet.sql",
+        "md": "formats/md/FreLXXGiguet.md",
+        "txt": "formats/txt/FreLXXGiguet.txt",
+        "sqlite": "formats/sqlite/FreLXXGiguet.db"
       }
     },
     {
       "version": "FreOltramare1874",
       "name": "Le Nouveau Testament Version Oltramare 1874",
       "files": {
-        "csv": "/formats/csv/FreOltramare1874.csv",
-        "json": "/formats/json/FreOltramare1874.json",
-        "yaml": "/formats/yaml/FreOltramare1874.yaml",
-        "sql": "/formats/sql/FreOltramare1874.sql",
-        "md": "/formats/md/FreOltramare1874.md",
-        "txt": "/formats/txt/FreOltramare1874.txt",
-        "sqlite": "/formats/sqlite/FreOltramare1874.db"
+        "csv": "formats/csv/FreOltramare1874.csv",
+        "json": "formats/json/FreOltramare1874.json",
+        "yaml": "formats/yaml/FreOltramare1874.yaml",
+        "sql": "formats/sql/FreOltramare1874.sql",
+        "md": "formats/md/FreOltramare1874.md",
+        "txt": "formats/txt/FreOltramare1874.txt",
+        "sqlite": "formats/sqlite/FreOltramare1874.db"
       }
     },
     {
       "version": "FrePGR",
       "name": "Bible Perret-Gentil et Rilliet",
       "files": {
-        "csv": "/formats/csv/FrePGR.csv",
-        "json": "/formats/json/FrePGR.json",
-        "yaml": "/formats/yaml/FrePGR.yaml",
-        "sql": "/formats/sql/FrePGR.sql",
-        "md": "/formats/md/FrePGR.md",
-        "txt": "/formats/txt/FrePGR.txt",
-        "sqlite": "/formats/sqlite/FrePGR.db"
+        "csv": "formats/csv/FrePGR.csv",
+        "json": "formats/json/FrePGR.json",
+        "yaml": "formats/yaml/FrePGR.yaml",
+        "sql": "formats/sql/FrePGR.sql",
+        "md": "formats/md/FrePGR.md",
+        "txt": "formats/txt/FrePGR.txt",
+        "sqlite": "formats/sqlite/FrePGR.db"
       }
     },
     {
       "version": "FreStapfer1889",
       "name": "Le Nouveau Testament traduction de Stapfer - 1889",
       "files": {
-        "csv": "/formats/csv/FreStapfer1889.csv",
-        "json": "/formats/json/FreStapfer1889.json",
-        "yaml": "/formats/yaml/FreStapfer1889.yaml",
-        "sql": "/formats/sql/FreStapfer1889.sql",
-        "md": "/formats/md/FreStapfer1889.md",
-        "txt": "/formats/txt/FreStapfer1889.txt",
-        "sqlite": "/formats/sqlite/FreStapfer1889.db"
+        "csv": "formats/csv/FreStapfer1889.csv",
+        "json": "formats/json/FreStapfer1889.json",
+        "yaml": "formats/yaml/FreStapfer1889.yaml",
+        "sql": "formats/sql/FreStapfer1889.sql",
+        "md": "formats/md/FreStapfer1889.md",
+        "txt": "formats/txt/FreStapfer1889.txt",
+        "sqlite": "formats/sqlite/FreStapfer1889.db"
       }
     },
     {
       "version": "FreSynodale1921",
       "name": "Le Nouveau Testament Version Synodale 1921 et le livre des Psaumes",
       "files": {
-        "csv": "/formats/csv/FreSynodale1921.csv",
-        "json": "/formats/json/FreSynodale1921.json",
-        "yaml": "/formats/yaml/FreSynodale1921.yaml",
-        "sql": "/formats/sql/FreSynodale1921.sql",
-        "md": "/formats/md/FreSynodale1921.md",
-        "txt": "/formats/txt/FreSynodale1921.txt",
-        "sqlite": "/formats/sqlite/FreSynodale1921.db"
+        "csv": "formats/csv/FreSynodale1921.csv",
+        "json": "formats/json/FreSynodale1921.json",
+        "yaml": "formats/yaml/FreSynodale1921.yaml",
+        "sql": "formats/sql/FreSynodale1921.sql",
+        "md": "formats/md/FreSynodale1921.md",
+        "txt": "formats/txt/FreSynodale1921.txt",
+        "sqlite": "formats/sqlite/FreSynodale1921.db"
       }
     }
   ],
@@ -977,156 +977,156 @@
       "version": "GerAlbrecht",
       "name": "German Albrecht Neues Testament und Psalmen",
       "files": {
-        "csv": "/formats/csv/GerAlbrecht.csv",
-        "json": "/formats/json/GerAlbrecht.json",
-        "yaml": "/formats/yaml/GerAlbrecht.yaml",
-        "sql": "/formats/sql/GerAlbrecht.sql",
-        "md": "/formats/md/GerAlbrecht.md",
-        "txt": "/formats/txt/GerAlbrecht.txt",
-        "sqlite": "/formats/sqlite/GerAlbrecht.db"
+        "csv": "formats/csv/GerAlbrecht.csv",
+        "json": "formats/json/GerAlbrecht.json",
+        "yaml": "formats/yaml/GerAlbrecht.yaml",
+        "sql": "formats/sql/GerAlbrecht.sql",
+        "md": "formats/md/GerAlbrecht.md",
+        "txt": "formats/txt/GerAlbrecht.txt",
+        "sqlite": "formats/sqlite/GerAlbrecht.db"
       }
     },
     {
       "version": "GerBoLut",
-      "name": "Deutsch Bolsingerߴs Luther 1545 Bibel (moderne Rechtschreibung)",
+      "name": "Deutsch Bolsinger\u07f4s Luther 1545 Bibel (moderne Rechtschreibung)",
       "files": {
-        "csv": "/formats/csv/GerBoLut.csv",
-        "json": "/formats/json/GerBoLut.json",
-        "yaml": "/formats/yaml/GerBoLut.yaml",
-        "sql": "/formats/sql/GerBoLut.sql",
-        "md": "/formats/md/GerBoLut.md",
-        "txt": "/formats/txt/GerBoLut.txt",
-        "sqlite": "/formats/sqlite/GerBoLut.db"
+        "csv": "formats/csv/GerBoLut.csv",
+        "json": "formats/json/GerBoLut.json",
+        "yaml": "formats/yaml/GerBoLut.yaml",
+        "sql": "formats/sql/GerBoLut.sql",
+        "md": "formats/md/GerBoLut.md",
+        "txt": "formats/txt/GerBoLut.txt",
+        "sqlite": "formats/sqlite/GerBoLut.db"
       }
     },
     {
       "version": "GerElb1871",
       "name": "German Elberfelder (1871) (sogenannt)",
       "files": {
-        "csv": "/formats/csv/GerElb1871.csv",
-        "json": "/formats/json/GerElb1871.json",
-        "yaml": "/formats/yaml/GerElb1871.yaml",
-        "sql": "/formats/sql/GerElb1871.sql",
-        "md": "/formats/md/GerElb1871.md",
-        "txt": "/formats/txt/GerElb1871.txt",
-        "sqlite": "/formats/sqlite/GerElb1871.db"
+        "csv": "formats/csv/GerElb1871.csv",
+        "json": "formats/json/GerElb1871.json",
+        "yaml": "formats/yaml/GerElb1871.yaml",
+        "sql": "formats/sql/GerElb1871.sql",
+        "md": "formats/md/GerElb1871.md",
+        "txt": "formats/txt/GerElb1871.txt",
+        "sqlite": "formats/sqlite/GerElb1871.db"
       }
     },
     {
       "version": "GerElb1905",
       "name": "German Darby Unrevidierte Elberfelder (1905)",
       "files": {
-        "csv": "/formats/csv/GerElb1905.csv",
-        "json": "/formats/json/GerElb1905.json",
-        "yaml": "/formats/yaml/GerElb1905.yaml",
-        "sql": "/formats/sql/GerElb1905.sql",
-        "md": "/formats/md/GerElb1905.md",
-        "txt": "/formats/txt/GerElb1905.txt",
-        "sqlite": "/formats/sqlite/GerElb1905.db"
+        "csv": "formats/csv/GerElb1905.csv",
+        "json": "formats/json/GerElb1905.json",
+        "yaml": "formats/yaml/GerElb1905.yaml",
+        "sql": "formats/sql/GerElb1905.sql",
+        "md": "formats/md/GerElb1905.md",
+        "txt": "formats/txt/GerElb1905.txt",
+        "sqlite": "formats/sqlite/GerElb1905.db"
       }
     },
     {
       "version": "GerGruenewald",
-      "name": "1924 Grünewaldbibel",
+      "name": "1924 Gr\u00fcnewaldbibel",
       "files": {
-        "csv": "/formats/csv/GerGruenewald.csv",
-        "json": "/formats/json/GerGruenewald.json",
-        "yaml": "/formats/yaml/GerGruenewald.yaml",
-        "sql": "/formats/sql/GerGruenewald.sql",
-        "md": "/formats/md/GerGruenewald.md",
-        "txt": "/formats/txt/GerGruenewald.txt",
-        "sqlite": "/formats/sqlite/GerGruenewald.db"
+        "csv": "formats/csv/GerGruenewald.csv",
+        "json": "formats/json/GerGruenewald.json",
+        "yaml": "formats/yaml/GerGruenewald.yaml",
+        "sql": "formats/sql/GerGruenewald.sql",
+        "md": "formats/md/GerGruenewald.md",
+        "txt": "formats/txt/GerGruenewald.txt",
+        "sqlite": "formats/sqlite/GerGruenewald.db"
       }
     },
     {
       "version": "GerLeoNA28",
       "name": "Leonberger Bibel, NT (NA28)",
       "files": {
-        "csv": "/formats/csv/GerLeoNA28.csv",
-        "json": "/formats/json/GerLeoNA28.json",
-        "yaml": "/formats/yaml/GerLeoNA28.yaml",
-        "sql": "/formats/sql/GerLeoNA28.sql",
-        "md": "/formats/md/GerLeoNA28.md",
-        "txt": "/formats/txt/GerLeoNA28.txt",
-        "sqlite": "/formats/sqlite/GerLeoNA28.db"
+        "csv": "formats/csv/GerLeoNA28.csv",
+        "json": "formats/json/GerLeoNA28.json",
+        "yaml": "formats/yaml/GerLeoNA28.yaml",
+        "sql": "formats/sql/GerLeoNA28.sql",
+        "md": "formats/md/GerLeoNA28.md",
+        "txt": "formats/txt/GerLeoNA28.txt",
+        "sqlite": "formats/sqlite/GerLeoNA28.db"
       }
     },
     {
       "version": "GerMenge",
       "name": "Menge-Bibel (1939)",
       "files": {
-        "csv": "/formats/csv/GerMenge.csv",
-        "json": "/formats/json/GerMenge.json",
-        "yaml": "/formats/yaml/GerMenge.yaml",
-        "sql": "/formats/sql/GerMenge.sql",
-        "md": "/formats/md/GerMenge.md",
-        "txt": "/formats/txt/GerMenge.txt",
-        "sqlite": "/formats/sqlite/GerMenge.db"
+        "csv": "formats/csv/GerMenge.csv",
+        "json": "formats/json/GerMenge.json",
+        "yaml": "formats/yaml/GerMenge.yaml",
+        "sql": "formats/sql/GerMenge.sql",
+        "md": "formats/md/GerMenge.md",
+        "txt": "formats/txt/GerMenge.txt",
+        "sqlite": "formats/sqlite/GerMenge.db"
       }
     },
     {
       "version": "GerOffBiSt",
       "name": "Offene Bibel - Studienfassung",
       "files": {
-        "csv": "/formats/csv/GerOffBiSt.csv",
-        "json": "/formats/json/GerOffBiSt.json",
-        "yaml": "/formats/yaml/GerOffBiSt.yaml",
-        "sql": "/formats/sql/GerOffBiSt.sql",
-        "md": "/formats/md/GerOffBiSt.md",
-        "txt": "/formats/txt/GerOffBiSt.txt",
-        "sqlite": "/formats/sqlite/GerOffBiSt.db"
+        "csv": "formats/csv/GerOffBiSt.csv",
+        "json": "formats/json/GerOffBiSt.json",
+        "yaml": "formats/yaml/GerOffBiSt.yaml",
+        "sql": "formats/sql/GerOffBiSt.sql",
+        "md": "formats/md/GerOffBiSt.md",
+        "txt": "formats/txt/GerOffBiSt.txt",
+        "sqlite": "formats/sqlite/GerOffBiSt.db"
       }
     },
     {
       "version": "GerSch",
       "name": "Schlachter Bibel (1951)",
       "files": {
-        "csv": "/formats/csv/GerSch.csv",
-        "json": "/formats/json/GerSch.json",
-        "yaml": "/formats/yaml/GerSch.yaml",
-        "sql": "/formats/sql/GerSch.sql",
-        "md": "/formats/md/GerSch.md",
-        "txt": "/formats/txt/GerSch.txt",
-        "sqlite": "/formats/sqlite/GerSch.db"
+        "csv": "formats/csv/GerSch.csv",
+        "json": "formats/json/GerSch.json",
+        "yaml": "formats/yaml/GerSch.yaml",
+        "sql": "formats/sql/GerSch.sql",
+        "md": "formats/md/GerSch.md",
+        "txt": "formats/txt/GerSch.txt",
+        "sqlite": "formats/sqlite/GerSch.db"
       }
     },
     {
       "version": "GerTafel",
       "name": "German Tafelbibel (1911)",
       "files": {
-        "csv": "/formats/csv/GerTafel.csv",
-        "json": "/formats/json/GerTafel.json",
-        "yaml": "/formats/yaml/GerTafel.yaml",
-        "sql": "/formats/sql/GerTafel.sql",
-        "md": "/formats/md/GerTafel.md",
-        "txt": "/formats/txt/GerTafel.txt",
-        "sqlite": "/formats/sqlite/GerTafel.db"
+        "csv": "formats/csv/GerTafel.csv",
+        "json": "formats/json/GerTafel.json",
+        "yaml": "formats/yaml/GerTafel.yaml",
+        "sql": "formats/sql/GerTafel.sql",
+        "md": "formats/md/GerTafel.md",
+        "txt": "formats/txt/GerTafel.txt",
+        "sqlite": "formats/sqlite/GerTafel.db"
       }
     },
     {
       "version": "GerTextbibel",
       "name": "Deutsch Textbibel (1906)",
       "files": {
-        "csv": "/formats/csv/GerTextbibel.csv",
-        "json": "/formats/json/GerTextbibel.json",
-        "yaml": "/formats/yaml/GerTextbibel.yaml",
-        "sql": "/formats/sql/GerTextbibel.sql",
-        "md": "/formats/md/GerTextbibel.md",
-        "txt": "/formats/txt/GerTextbibel.txt",
-        "sqlite": "/formats/sqlite/GerTextbibel.db"
+        "csv": "formats/csv/GerTextbibel.csv",
+        "json": "formats/json/GerTextbibel.json",
+        "yaml": "formats/yaml/GerTextbibel.yaml",
+        "sql": "formats/sql/GerTextbibel.sql",
+        "md": "formats/md/GerTextbibel.md",
+        "txt": "formats/txt/GerTextbibel.txt",
+        "sqlite": "formats/sqlite/GerTextbibel.db"
       }
     },
     {
       "version": "GerZurcher",
-      "name": "Deutsche Zürcher Bibel von 1931.",
+      "name": "Deutsche Z\u00fcrcher Bibel von 1931.",
       "files": {
-        "csv": "/formats/csv/GerZurcher.csv",
-        "json": "/formats/json/GerZurcher.json",
-        "yaml": "/formats/yaml/GerZurcher.yaml",
-        "sql": "/formats/sql/GerZurcher.sql",
-        "md": "/formats/md/GerZurcher.md",
-        "txt": "/formats/txt/GerZurcher.txt",
-        "sqlite": "/formats/sqlite/GerZurcher.db"
+        "csv": "formats/csv/GerZurcher.csv",
+        "json": "formats/json/GerZurcher.json",
+        "yaml": "formats/yaml/GerZurcher.yaml",
+        "sql": "formats/sql/GerZurcher.sql",
+        "md": "formats/md/GerZurcher.md",
+        "txt": "formats/txt/GerZurcher.txt",
+        "sqlite": "formats/sqlite/GerZurcher.db"
       }
     }
   ],
@@ -1135,13 +1135,13 @@
       "version": "GreVamvas",
       "name": "Neophytos Vamvas's translation of the Holy Bible into modern Greek (1850)",
       "files": {
-        "csv": "/formats/csv/GreVamvas.csv",
-        "json": "/formats/json/GreVamvas.json",
-        "yaml": "/formats/yaml/GreVamvas.yaml",
-        "sql": "/formats/sql/GreVamvas.sql",
-        "md": "/formats/md/GreVamvas.md",
-        "txt": "/formats/txt/GreVamvas.txt",
-        "sqlite": "/formats/sqlite/GreVamvas.db"
+        "csv": "formats/csv/GreVamvas.csv",
+        "json": "formats/json/GreVamvas.json",
+        "yaml": "formats/yaml/GreVamvas.yaml",
+        "sql": "formats/sql/GreVamvas.sql",
+        "md": "formats/md/GreVamvas.md",
+        "txt": "formats/txt/GreVamvas.txt",
+        "sqlite": "formats/sqlite/GreVamvas.db"
       }
     }
   ],
@@ -1150,13 +1150,13 @@
       "version": "Haitian",
       "name": "Haitian Creole Bible",
       "files": {
-        "csv": "/formats/csv/Haitian.csv",
-        "json": "/formats/json/Haitian.json",
-        "yaml": "/formats/yaml/Haitian.yaml",
-        "sql": "/formats/sql/Haitian.sql",
-        "md": "/formats/md/Haitian.md",
-        "txt": "/formats/txt/Haitian.txt",
-        "sqlite": "/formats/sqlite/Haitian.db"
+        "csv": "formats/csv/Haitian.csv",
+        "json": "formats/json/Haitian.json",
+        "yaml": "formats/yaml/Haitian.yaml",
+        "sql": "formats/sql/Haitian.sql",
+        "md": "formats/md/Haitian.md",
+        "txt": "formats/txt/Haitian.txt",
+        "sqlite": "formats/sqlite/Haitian.db"
       }
     }
   ],
@@ -1165,69 +1165,69 @@
       "version": "HebModern",
       "name": "Modern Hebrew Bible",
       "files": {
-        "csv": "/formats/csv/HebModern.csv",
-        "json": "/formats/json/HebModern.json",
-        "yaml": "/formats/yaml/HebModern.yaml",
-        "sql": "/formats/sql/HebModern.sql",
-        "md": "/formats/md/HebModern.md",
-        "txt": "/formats/txt/HebModern.txt",
-        "sqlite": "/formats/sqlite/HebModern.db"
+        "csv": "formats/csv/HebModern.csv",
+        "json": "formats/json/HebModern.json",
+        "yaml": "formats/yaml/HebModern.yaml",
+        "sql": "formats/sql/HebModern.sql",
+        "md": "formats/md/HebModern.md",
+        "txt": "formats/txt/HebModern.txt",
+        "sqlite": "formats/sqlite/HebModern.db"
       }
     }
   ],
   "hu": [
     {
       "version": "HunKar",
-      "name": "Revideált Károli Biblia 1908",
+      "name": "Revide\u00e1lt K\u00e1roli Biblia 1908",
       "files": {
-        "csv": "/formats/csv/HunKar.csv",
-        "json": "/formats/json/HunKar.json",
-        "yaml": "/formats/yaml/HunKar.yaml",
-        "sql": "/formats/sql/HunKar.sql",
-        "md": "/formats/md/HunKar.md",
-        "txt": "/formats/txt/HunKar.txt",
-        "sqlite": "/formats/sqlite/HunKar.db"
+        "csv": "formats/csv/HunKar.csv",
+        "json": "formats/json/HunKar.json",
+        "yaml": "formats/yaml/HunKar.yaml",
+        "sql": "formats/sql/HunKar.sql",
+        "md": "formats/md/HunKar.md",
+        "txt": "formats/txt/HunKar.txt",
+        "sqlite": "formats/sqlite/HunKar.db"
       }
     }
   ],
   "ja": [
     {
       "version": "JapBungo",
-      "name": "明治元訳「舊約聖書」(1953年版) 大正改訳「新約聖書",
+      "name": "\u660e\u6cbb\u5143\u8a33\u300c\u820a\u7d04\u8056\u66f8\u300d(1953\u5e74\u7248) \u5927\u6b63\u6539\u8a33\u300c\u65b0\u7d04\u8056\u66f8",
       "files": {
-        "csv": "/formats/csv/JapBungo.csv",
-        "json": "/formats/json/JapBungo.json",
-        "yaml": "/formats/yaml/JapBungo.yaml",
-        "sql": "/formats/sql/JapBungo.sql",
-        "md": "/formats/md/JapBungo.md",
-        "txt": "/formats/txt/JapBungo.txt",
-        "sqlite": "/formats/sqlite/JapBungo.db"
+        "csv": "formats/csv/JapBungo.csv",
+        "json": "formats/json/JapBungo.json",
+        "yaml": "formats/yaml/JapBungo.yaml",
+        "sql": "formats/sql/JapBungo.sql",
+        "md": "formats/md/JapBungo.md",
+        "txt": "formats/txt/JapBungo.txt",
+        "sqlite": "formats/sqlite/JapBungo.db"
       }
     },
     {
       "version": "JapDenmo",
-      "name": "Japanese Denmo 電網聖書",
+      "name": "Japanese Denmo \u96fb\u7db2\u8056\u66f8",
       "files": {
-        "csv": "/formats/csv/JapDenmo.csv",
-        "json": "/formats/json/JapDenmo.json",
-        "yaml": "/formats/yaml/JapDenmo.yaml",
-        "sql": "/formats/sql/JapDenmo.sql",
-        "md": "/formats/md/JapDenmo.md",
-        "txt": "/formats/txt/JapDenmo.txt",
-        "sqlite": "/formats/sqlite/JapDenmo.db"
+        "csv": "formats/csv/JapDenmo.csv",
+        "json": "formats/json/JapDenmo.json",
+        "yaml": "formats/yaml/JapDenmo.yaml",
+        "sql": "formats/sql/JapDenmo.sql",
+        "md": "formats/md/JapDenmo.md",
+        "txt": "formats/txt/JapDenmo.txt",
+        "sqlite": "formats/sqlite/JapDenmo.db"
       }
     },
     {
       "version": "JapKougo",
-      "name": "Japanese Kougo-yaku 口語訳「聖書」(1954/1955年版)",
+      "name": "Japanese Kougo-yaku \u53e3\u8a9e\u8a33\u300c\u8056\u66f8\u300d(1954/1955\u5e74\u7248)",
       "files": {
-        "csv": "/formats/csv/JapKougo.csv",
-        "json": "/formats/json/JapKougo.json",
-        "yaml": "/formats/yaml/JapKougo.yaml",
-        "sql": "/formats/sql/JapKougo.sql",
-        "md": "/formats/md/JapKougo.md",
-        "txt": "/formats/txt/JapKougo.txt",
-        "sqlite": "/formats/sqlite/JapKougo.db"
+        "csv": "formats/csv/JapKougo.csv",
+        "json": "formats/json/JapKougo.json",
+        "yaml": "formats/yaml/JapKougo.yaml",
+        "sql": "formats/sql/JapKougo.sql",
+        "md": "formats/md/JapKougo.md",
+        "txt": "formats/txt/JapKougo.txt",
+        "sqlite": "formats/sqlite/JapKougo.db"
       }
     }
   ],
@@ -1236,13 +1236,13 @@
       "version": "KLV",
       "name": "Klingon Language Version of the World English Bible",
       "files": {
-        "csv": "/formats/csv/KLV.csv",
-        "json": "/formats/json/KLV.json",
-        "yaml": "/formats/yaml/KLV.yaml",
-        "sql": "/formats/sql/KLV.sql",
-        "md": "/formats/md/KLV.md",
-        "txt": "/formats/txt/KLV.txt",
-        "sqlite": "/formats/sqlite/KLV.db"
+        "csv": "formats/csv/KLV.csv",
+        "json": "formats/json/KLV.json",
+        "yaml": "formats/yaml/KLV.yaml",
+        "sql": "formats/sql/KLV.sql",
+        "md": "formats/md/KLV.md",
+        "txt": "formats/txt/KLV.txt",
+        "sqlite": "formats/sqlite/KLV.db"
       }
     }
   ],
@@ -1251,41 +1251,41 @@
       "version": "KorHKJV",
       "name": "Hangul King James Version",
       "files": {
-        "csv": "/formats/csv/KorHKJV.csv",
-        "json": "/formats/json/KorHKJV.json",
-        "yaml": "/formats/yaml/KorHKJV.yaml",
-        "sql": "/formats/sql/KorHKJV.sql",
-        "md": "/formats/md/KorHKJV.md",
-        "txt": "/formats/txt/KorHKJV.txt",
-        "sqlite": "/formats/sqlite/KorHKJV.db"
+        "csv": "formats/csv/KorHKJV.csv",
+        "json": "formats/json/KorHKJV.json",
+        "yaml": "formats/yaml/KorHKJV.yaml",
+        "sql": "formats/sql/KorHKJV.sql",
+        "md": "formats/md/KorHKJV.md",
+        "txt": "formats/txt/KorHKJV.txt",
+        "sqlite": "formats/sqlite/KorHKJV.db"
       }
     },
     {
       "version": "KorRV",
-      "name": "개역성경",
+      "name": "\uac1c\uc5ed\uc131\uacbd",
       "files": {
-        "csv": "/formats/csv/KorRV.csv",
-        "json": "/formats/json/KorRV.json",
-        "yaml": "/formats/yaml/KorRV.yaml",
-        "sql": "/formats/sql/KorRV.sql",
-        "md": "/formats/md/KorRV.md",
-        "txt": "/formats/txt/KorRV.txt",
-        "sqlite": "/formats/sqlite/KorRV.db"
+        "csv": "formats/csv/KorRV.csv",
+        "json": "formats/json/KorRV.json",
+        "yaml": "formats/yaml/KorRV.yaml",
+        "sql": "formats/sql/KorRV.sql",
+        "md": "formats/md/KorRV.md",
+        "txt": "formats/txt/KorRV.txt",
+        "sqlite": "formats/sqlite/KorRV.db"
       }
     }
   ],
   "lv": [
     {
       "version": "LvGluck8",
-      "name": "Latvian Glück 8th edition",
+      "name": "Latvian Gl\u00fcck 8th edition",
       "files": {
-        "csv": "/formats/csv/LvGluck8.csv",
-        "json": "/formats/json/LvGluck8.json",
-        "yaml": "/formats/yaml/LvGluck8.yaml",
-        "sql": "/formats/sql/LvGluck8.sql",
-        "md": "/formats/md/LvGluck8.md",
-        "txt": "/formats/txt/LvGluck8.txt",
-        "sqlite": "/formats/sqlite/LvGluck8.db"
+        "csv": "formats/csv/LvGluck8.csv",
+        "json": "formats/json/LvGluck8.json",
+        "yaml": "formats/yaml/LvGluck8.yaml",
+        "sql": "formats/sql/LvGluck8.sql",
+        "md": "formats/md/LvGluck8.md",
+        "txt": "formats/txt/LvGluck8.txt",
+        "sqlite": "formats/sqlite/LvGluck8.db"
       }
     }
   ],
@@ -1294,13 +1294,13 @@
       "version": "Mal1910",
       "name": "Sathyavedapusthakam (Malayalam Bible)",
       "files": {
-        "csv": "/formats/csv/Mal1910.csv",
-        "json": "/formats/json/Mal1910.json",
-        "yaml": "/formats/yaml/Mal1910.yaml",
-        "sql": "/formats/sql/Mal1910.sql",
-        "md": "/formats/md/Mal1910.md",
-        "txt": "/formats/txt/Mal1910.txt",
-        "sqlite": "/formats/sqlite/Mal1910.db"
+        "csv": "formats/csv/Mal1910.csv",
+        "json": "formats/json/Mal1910.json",
+        "yaml": "formats/yaml/Mal1910.yaml",
+        "sql": "formats/sql/Mal1910.sql",
+        "md": "formats/md/Mal1910.md",
+        "txt": "formats/txt/Mal1910.txt",
+        "sqlite": "formats/sqlite/Mal1910.db"
       }
     }
   ],
@@ -1309,13 +1309,13 @@
       "version": "ManxGaelic",
       "name": "Manx Gaelic Scripture Portions",
       "files": {
-        "csv": "/formats/csv/ManxGaelic.csv",
-        "json": "/formats/json/ManxGaelic.json",
-        "yaml": "/formats/yaml/ManxGaelic.yaml",
-        "sql": "/formats/sql/ManxGaelic.sql",
-        "md": "/formats/md/ManxGaelic.md",
-        "txt": "/formats/txt/ManxGaelic.txt",
-        "sqlite": "/formats/sqlite/ManxGaelic.db"
+        "csv": "formats/csv/ManxGaelic.csv",
+        "json": "formats/json/ManxGaelic.json",
+        "yaml": "formats/yaml/ManxGaelic.yaml",
+        "sql": "formats/sql/ManxGaelic.sql",
+        "md": "formats/md/ManxGaelic.md",
+        "txt": "formats/txt/ManxGaelic.txt",
+        "sqlite": "formats/sqlite/ManxGaelic.db"
       }
     }
   ],
@@ -1324,54 +1324,54 @@
       "version": "Maori",
       "name": "Maori Bible",
       "files": {
-        "csv": "/formats/csv/Maori.csv",
-        "json": "/formats/json/Maori.json",
-        "yaml": "/formats/yaml/Maori.yaml",
-        "sql": "/formats/sql/Maori.sql",
-        "md": "/formats/md/Maori.md",
-        "txt": "/formats/txt/Maori.txt",
-        "sqlite": "/formats/sqlite/Maori.db"
+        "csv": "formats/csv/Maori.csv",
+        "json": "formats/json/Maori.json",
+        "yaml": "formats/yaml/Maori.yaml",
+        "sql": "formats/sql/Maori.sql",
+        "md": "formats/md/Maori.md",
+        "txt": "formats/txt/Maori.txt",
+        "sqlite": "formats/sqlite/Maori.db"
       }
     }
   ],
   "hbo": [
     {
       "version": "MapM",
-      "name": "מקרא על פי המסורה (Miqra `al pi ha-Mesorah)",
+      "name": "\u05de\u05e7\u05e8\u05d0 \u05e2\u05dc \u05e4\u05d9 \u05d4\u05de\u05e1\u05d5\u05e8\u05d4 (Miqra `al pi ha-Mesorah)",
       "files": {
-        "csv": "/formats/csv/MapM.csv",
-        "json": "/formats/json/MapM.json",
-        "yaml": "/formats/yaml/MapM.yaml",
-        "sql": "/formats/sql/MapM.sql",
-        "md": "/formats/md/MapM.md",
-        "txt": "/formats/txt/MapM.txt",
-        "sqlite": "/formats/sqlite/MapM.db"
+        "csv": "formats/csv/MapM.csv",
+        "json": "formats/json/MapM.json",
+        "yaml": "formats/yaml/MapM.yaml",
+        "sql": "formats/sql/MapM.sql",
+        "md": "formats/md/MapM.md",
+        "txt": "formats/txt/MapM.txt",
+        "sqlite": "formats/sqlite/MapM.db"
       }
     },
     {
       "version": "SP",
       "name": "Samaritan Pentateuch",
       "files": {
-        "csv": "/formats/csv/SP.csv",
-        "json": "/formats/json/SP.json",
-        "yaml": "/formats/yaml/SP.yaml",
-        "sql": "/formats/sql/SP.sql",
-        "md": "/formats/md/SP.md",
-        "txt": "/formats/txt/SP.txt",
-        "sqlite": "/formats/sqlite/SP.db"
+        "csv": "formats/csv/SP.csv",
+        "json": "formats/json/SP.json",
+        "yaml": "formats/yaml/SP.yaml",
+        "sql": "formats/sql/SP.sql",
+        "md": "formats/md/SP.md",
+        "txt": "formats/txt/SP.txt",
+        "sqlite": "formats/sqlite/SP.db"
       }
     },
     {
       "version": "WLC",
       "name": "Westminster Leningrad Codex",
       "files": {
-        "csv": "/formats/csv/WLC.csv",
-        "json": "/formats/json/WLC.json",
-        "yaml": "/formats/yaml/WLC.yaml",
-        "sql": "/formats/sql/WLC.sql",
-        "md": "/formats/md/WLC.md",
-        "txt": "/formats/txt/WLC.txt",
-        "sqlite": "/formats/sqlite/WLC.db"
+        "csv": "formats/csv/WLC.csv",
+        "json": "formats/json/WLC.json",
+        "yaml": "formats/yaml/WLC.yaml",
+        "sql": "formats/sql/WLC.sql",
+        "md": "formats/md/WLC.md",
+        "txt": "formats/txt/WLC.txt",
+        "sqlite": "formats/sqlite/WLC.db"
       }
     }
   ],
@@ -1380,43 +1380,43 @@
       "version": "Mg1865",
       "name": "Baiboly Malagasy (1865)",
       "files": {
-        "csv": "/formats/csv/Mg1865.csv",
-        "json": "/formats/json/Mg1865.json",
-        "yaml": "/formats/yaml/Mg1865.yaml",
-        "sql": "/formats/sql/Mg1865.sql",
-        "md": "/formats/md/Mg1865.md",
-        "txt": "/formats/txt/Mg1865.txt",
-        "sqlite": "/formats/sqlite/Mg1865.db"
+        "csv": "formats/csv/Mg1865.csv",
+        "json": "formats/json/Mg1865.json",
+        "yaml": "formats/yaml/Mg1865.yaml",
+        "sql": "formats/sql/Mg1865.sql",
+        "md": "formats/md/Mg1865.md",
+        "txt": "formats/txt/Mg1865.txt",
+        "sqlite": "formats/sqlite/Mg1865.db"
       }
     }
   ],
   "nn": [
     {
       "version": "NorSMB",
-      "name": "Studentmållagsbibelen frå 1921",
+      "name": "Studentm\u00e5llagsbibelen fr\u00e5 1921",
       "files": {
-        "csv": "/formats/csv/NorSMB.csv",
-        "json": "/formats/json/NorSMB.json",
-        "yaml": "/formats/yaml/NorSMB.yaml",
-        "sql": "/formats/sql/NorSMB.sql",
-        "md": "/formats/md/NorSMB.md",
-        "txt": "/formats/txt/NorSMB.txt",
-        "sqlite": "/formats/sqlite/NorSMB.db"
+        "csv": "formats/csv/NorSMB.csv",
+        "json": "formats/json/NorSMB.json",
+        "yaml": "formats/yaml/NorSMB.yaml",
+        "sql": "formats/sql/NorSMB.sql",
+        "md": "formats/md/NorSMB.md",
+        "txt": "formats/txt/NorSMB.txt",
+        "sqlite": "formats/sqlite/NorSMB.db"
       }
     }
   ],
   "nb": [
     {
       "version": "Norsk",
-      "name": "Bibelen på Norsk (1930)",
+      "name": "Bibelen p\u00e5 Norsk (1930)",
       "files": {
-        "csv": "/formats/csv/Norsk.csv",
-        "json": "/formats/json/Norsk.json",
-        "yaml": "/formats/yaml/Norsk.yaml",
-        "sql": "/formats/sql/Norsk.sql",
-        "md": "/formats/md/Norsk.md",
-        "txt": "/formats/txt/Norsk.txt",
-        "sqlite": "/formats/sqlite/Norsk.db"
+        "csv": "formats/csv/Norsk.csv",
+        "json": "formats/json/Norsk.json",
+        "yaml": "formats/yaml/Norsk.yaml",
+        "sql": "formats/sql/Norsk.sql",
+        "md": "formats/md/Norsk.md",
+        "txt": "formats/txt/Norsk.txt",
+        "sqlite": "formats/sqlite/Norsk.db"
       }
     }
   ],
@@ -1425,13 +1425,13 @@
       "version": "Peshitta",
       "name": "Syriac Peshitta",
       "files": {
-        "csv": "/formats/csv/Peshitta.csv",
-        "json": "/formats/json/Peshitta.json",
-        "yaml": "/formats/yaml/Peshitta.yaml",
-        "sql": "/formats/sql/Peshitta.sql",
-        "md": "/formats/md/Peshitta.md",
-        "txt": "/formats/txt/Peshitta.txt",
-        "sqlite": "/formats/sqlite/Peshitta.db"
+        "csv": "formats/csv/Peshitta.csv",
+        "json": "formats/json/Peshitta.json",
+        "yaml": "formats/yaml/Peshitta.yaml",
+        "sql": "formats/sql/Peshitta.sql",
+        "md": "formats/md/Peshitta.md",
+        "txt": "formats/txt/Peshitta.txt",
+        "sqlite": "formats/sqlite/Peshitta.db"
       }
     }
   ],
@@ -1440,13 +1440,13 @@
       "version": "PohnOld",
       "name": "Old Public Domain Pohnpeian Bible",
       "files": {
-        "csv": "/formats/csv/PohnOld.csv",
-        "json": "/formats/json/PohnOld.json",
-        "yaml": "/formats/yaml/PohnOld.yaml",
-        "sql": "/formats/sql/PohnOld.sql",
-        "md": "/formats/md/PohnOld.md",
-        "txt": "/formats/txt/PohnOld.txt",
-        "sqlite": "/formats/sqlite/PohnOld.db"
+        "csv": "formats/csv/PohnOld.csv",
+        "json": "formats/json/PohnOld.json",
+        "yaml": "formats/yaml/PohnOld.yaml",
+        "sql": "formats/sql/PohnOld.sql",
+        "md": "formats/md/PohnOld.md",
+        "txt": "formats/txt/PohnOld.txt",
+        "sqlite": "formats/sqlite/PohnOld.db"
       }
     }
   ],
@@ -1455,67 +1455,67 @@
       "version": "PolGdanska",
       "name": "Polish Biblia Gdanska (1881)",
       "files": {
-        "csv": "/formats/csv/PolGdanska.csv",
-        "json": "/formats/json/PolGdanska.json",
-        "yaml": "/formats/yaml/PolGdanska.yaml",
-        "sql": "/formats/sql/PolGdanska.sql",
-        "md": "/formats/md/PolGdanska.md",
-        "txt": "/formats/txt/PolGdanska.txt",
-        "sqlite": "/formats/sqlite/PolGdanska.db"
+        "csv": "formats/csv/PolGdanska.csv",
+        "json": "formats/json/PolGdanska.json",
+        "yaml": "formats/yaml/PolGdanska.yaml",
+        "sql": "formats/sql/PolGdanska.sql",
+        "md": "formats/md/PolGdanska.md",
+        "txt": "formats/txt/PolGdanska.txt",
+        "sqlite": "formats/sqlite/PolGdanska.db"
       }
     },
     {
       "version": "PolUGdanska",
-      "name": "Updated Gdańsk Bible",
+      "name": "Updated Gda\u0144sk Bible",
       "files": {
-        "csv": "/formats/csv/PolUGdanska.csv",
-        "json": "/formats/json/PolUGdanska.json",
-        "yaml": "/formats/yaml/PolUGdanska.yaml",
-        "sql": "/formats/sql/PolUGdanska.sql",
-        "md": "/formats/md/PolUGdanska.md",
-        "txt": "/formats/txt/PolUGdanska.txt",
-        "sqlite": "/formats/sqlite/PolUGdanska.db"
+        "csv": "formats/csv/PolUGdanska.csv",
+        "json": "formats/json/PolUGdanska.json",
+        "yaml": "formats/yaml/PolUGdanska.yaml",
+        "sql": "formats/sql/PolUGdanska.sql",
+        "md": "formats/md/PolUGdanska.md",
+        "txt": "formats/txt/PolUGdanska.txt",
+        "sqlite": "formats/sqlite/PolUGdanska.db"
       }
     }
   ],
   "pt": [
     {
       "version": "PorBLivre",
-      "name": "Bíblia Livre",
+      "name": "B\u00edblia Livre",
       "files": {
-        "csv": "/formats/csv/PorBLivre.csv",
-        "json": "/formats/json/PorBLivre.json",
-        "yaml": "/formats/yaml/PorBLivre.yaml",
-        "sql": "/formats/sql/PorBLivre.sql",
-        "md": "/formats/md/PorBLivre.md",
-        "txt": "/formats/txt/PorBLivre.txt",
-        "sqlite": "/formats/sqlite/PorBLivre.db"
+        "csv": "formats/csv/PorBLivre.csv",
+        "json": "formats/json/PorBLivre.json",
+        "yaml": "formats/yaml/PorBLivre.yaml",
+        "sql": "formats/sql/PorBLivre.sql",
+        "md": "formats/md/PorBLivre.md",
+        "txt": "formats/txt/PorBLivre.txt",
+        "sqlite": "formats/sqlite/PorBLivre.db"
       }
     },
     {
       "version": "PorBLivreTR",
-      "name": "Bíblia Livre - Textus Receptus",
+      "name": "B\u00edblia Livre - Textus Receptus",
       "files": {
-        "csv": "/formats/csv/PorBLivreTR.csv",
-        "json": "/formats/json/PorBLivreTR.json",
-        "yaml": "/formats/yaml/PorBLivreTR.yaml",
-        "sql": "/formats/sql/PorBLivreTR.sql",
-        "md": "/formats/md/PorBLivreTR.md",
-        "txt": "/formats/txt/PorBLivreTR.txt",
-        "sqlite": "/formats/sqlite/PorBLivreTR.db"
+        "csv": "formats/csv/PorBLivreTR.csv",
+        "json": "formats/json/PorBLivreTR.json",
+        "yaml": "formats/yaml/PorBLivreTR.yaml",
+        "sql": "formats/sql/PorBLivreTR.sql",
+        "md": "formats/md/PorBLivreTR.md",
+        "txt": "formats/txt/PorBLivreTR.txt",
+        "sqlite": "formats/sqlite/PorBLivreTR.db"
       }
     },
     {
       "version": "PorNVA",
-      "name": "Bíblia Nova Versão de Acesso Livre",
+      "name": "B\u00edblia Nova Vers\u00e3o de Acesso Livre",
       "files": {
-        "csv": "/formats/csv/PorNVA.csv",
-        "json": "/formats/json/PorNVA.json",
-        "yaml": "/formats/yaml/PorNVA.yaml",
-        "sql": "/formats/sql/PorNVA.sql",
-        "md": "/formats/md/PorNVA.md",
-        "txt": "/formats/txt/PorNVA.txt",
-        "sqlite": "/formats/sqlite/PorNVA.db"
+        "csv": "formats/csv/PorNVA.csv",
+        "json": "formats/json/PorNVA.json",
+        "yaml": "formats/yaml/PorNVA.yaml",
+        "sql": "formats/sql/PorNVA.sql",
+        "md": "formats/md/PorNVA.md",
+        "txt": "formats/txt/PorNVA.txt",
+        "sqlite": "formats/sqlite/PorNVA.db"
       }
     }
   ],
@@ -1524,26 +1524,26 @@
       "version": "RusMakarij",
       "name": "The Pentateuch of Moses in Russian",
       "files": {
-        "csv": "/formats/csv/RusMakarij.csv",
-        "json": "/formats/json/RusMakarij.json",
-        "yaml": "/formats/yaml/RusMakarij.yaml",
-        "sql": "/formats/sql/RusMakarij.sql",
-        "md": "/formats/md/RusMakarij.md",
-        "txt": "/formats/txt/RusMakarij.txt",
-        "sqlite": "/formats/sqlite/RusMakarij.db"
+        "csv": "formats/csv/RusMakarij.csv",
+        "json": "formats/json/RusMakarij.json",
+        "yaml": "formats/yaml/RusMakarij.yaml",
+        "sql": "formats/sql/RusMakarij.sql",
+        "md": "formats/md/RusMakarij.md",
+        "txt": "formats/txt/RusMakarij.txt",
+        "sqlite": "formats/sqlite/RusMakarij.db"
       }
     },
     {
       "version": "RusSynodal",
-      "name": "Синодального Перевода Библии",
+      "name": "\u0421\u0438\u043d\u043e\u0434\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u041f\u0435\u0440\u0435\u0432\u043e\u0434\u0430 \u0411\u0438\u0431\u043b\u0438\u0438",
       "files": {
-        "csv": "/formats/csv/RusSynodal.csv",
-        "json": "/formats/json/RusSynodal.json",
-        "yaml": "/formats/yaml/RusSynodal.yaml",
-        "sql": "/formats/sql/RusSynodal.sql",
-        "md": "/formats/md/RusSynodal.md",
-        "txt": "/formats/txt/RusSynodal.txt",
-        "sqlite": "/formats/sqlite/RusSynodal.db"
+        "csv": "formats/csv/RusSynodal.csv",
+        "json": "formats/json/RusSynodal.json",
+        "yaml": "formats/yaml/RusSynodal.yaml",
+        "sql": "formats/sql/RusSynodal.sql",
+        "md": "formats/md/RusSynodal.md",
+        "txt": "formats/txt/RusSynodal.txt",
+        "sqlite": "formats/sqlite/RusSynodal.db"
       }
     }
   ],
@@ -1552,52 +1552,52 @@
       "version": "SloChraska",
       "name": "ACV: A Conservative Version",
       "files": {
-        "csv": "/formats/csv/SloChraska.csv",
-        "json": "/formats/json/SloChraska.json",
-        "yaml": "/formats/yaml/SloChraska.yaml",
-        "sql": "/formats/sql/SloChraska.sql",
-        "md": "/formats/md/SloChraska.md",
-        "txt": "/formats/txt/SloChraska.txt",
-        "sqlite": "/formats/sqlite/SloChraska.db"
+        "csv": "formats/csv/SloChraska.csv",
+        "json": "formats/json/SloChraska.json",
+        "yaml": "formats/yaml/SloChraska.yaml",
+        "sql": "formats/sql/SloChraska.sql",
+        "md": "formats/md/SloChraska.md",
+        "txt": "formats/txt/SloChraska.txt",
+        "sqlite": "formats/sqlite/SloChraska.db"
       }
     },
     {
       "version": "SloKJV",
       "name": "Slovenian translation of Holy Bible King James Version (1769)",
       "files": {
-        "csv": "/formats/csv/SloKJV.csv",
-        "json": "/formats/json/SloKJV.json",
-        "yaml": "/formats/yaml/SloKJV.yaml",
-        "sql": "/formats/sql/SloKJV.sql",
-        "md": "/formats/md/SloKJV.md",
-        "txt": "/formats/txt/SloKJV.txt",
-        "sqlite": "/formats/sqlite/SloKJV.db"
+        "csv": "formats/csv/SloKJV.csv",
+        "json": "formats/json/SloKJV.json",
+        "yaml": "formats/yaml/SloKJV.yaml",
+        "sql": "formats/sql/SloKJV.sql",
+        "md": "formats/md/SloKJV.md",
+        "txt": "formats/txt/SloKJV.txt",
+        "sqlite": "formats/sqlite/SloKJV.db"
       }
     },
     {
       "version": "SloOjacano",
-      "name": "Ojačano Sveto pismo (Ps + Gal)",
+      "name": "Oja\u010dano Sveto pismo (Ps + Gal)",
       "files": {
-        "csv": "/formats/csv/SloOjacano.csv",
-        "json": "/formats/json/SloOjacano.json",
-        "yaml": "/formats/yaml/SloOjacano.yaml",
-        "sql": "/formats/sql/SloOjacano.sql",
-        "md": "/formats/md/SloOjacano.md",
-        "txt": "/formats/txt/SloOjacano.txt",
-        "sqlite": "/formats/sqlite/SloOjacano.db"
+        "csv": "formats/csv/SloOjacano.csv",
+        "json": "formats/json/SloOjacano.json",
+        "yaml": "formats/yaml/SloOjacano.yaml",
+        "sql": "formats/sql/SloOjacano.sql",
+        "md": "formats/md/SloOjacano.md",
+        "txt": "formats/txt/SloOjacano.txt",
+        "sqlite": "formats/sqlite/SloOjacano.db"
       }
     },
     {
       "version": "SloStritar",
       "name": "Novi testament in Psalmi Davidovi Josipa Stritarja (1882)",
       "files": {
-        "csv": "/formats/csv/SloStritar.csv",
-        "json": "/formats/json/SloStritar.json",
-        "yaml": "/formats/yaml/SloStritar.yaml",
-        "sql": "/formats/sql/SloStritar.sql",
-        "md": "/formats/md/SloStritar.md",
-        "txt": "/formats/txt/SloStritar.txt",
-        "sqlite": "/formats/sqlite/SloStritar.db"
+        "csv": "formats/csv/SloStritar.csv",
+        "json": "formats/json/SloStritar.json",
+        "yaml": "formats/yaml/SloStritar.yaml",
+        "sql": "formats/sql/SloStritar.sql",
+        "md": "formats/md/SloStritar.md",
+        "txt": "formats/txt/SloStritar.txt",
+        "sqlite": "formats/sqlite/SloStritar.db"
       }
     }
   ],
@@ -1606,80 +1606,80 @@
       "version": "SpaPlatense",
       "name": "Biblia Platense (Straubinger)",
       "files": {
-        "csv": "/formats/csv/SpaPlatense.csv",
-        "json": "/formats/json/SpaPlatense.json",
-        "yaml": "/formats/yaml/SpaPlatense.yaml",
-        "sql": "/formats/sql/SpaPlatense.sql",
-        "md": "/formats/md/SpaPlatense.md",
-        "txt": "/formats/txt/SpaPlatense.txt",
-        "sqlite": "/formats/sqlite/SpaPlatense.db"
+        "csv": "formats/csv/SpaPlatense.csv",
+        "json": "formats/json/SpaPlatense.json",
+        "yaml": "formats/yaml/SpaPlatense.yaml",
+        "sql": "formats/sql/SpaPlatense.sql",
+        "md": "formats/md/SpaPlatense.md",
+        "txt": "formats/txt/SpaPlatense.txt",
+        "sqlite": "formats/sqlite/SpaPlatense.db"
       }
     },
     {
       "version": "SpaRV",
       "name": "La Santa Biblia Reina-Valera (1909)",
       "files": {
-        "csv": "/formats/csv/SpaRV.csv",
-        "json": "/formats/json/SpaRV.json",
-        "yaml": "/formats/yaml/SpaRV.yaml",
-        "sql": "/formats/sql/SpaRV.sql",
-        "md": "/formats/md/SpaRV.md",
-        "txt": "/formats/txt/SpaRV.txt",
-        "sqlite": "/formats/sqlite/SpaRV.db"
+        "csv": "formats/csv/SpaRV.csv",
+        "json": "formats/json/SpaRV.json",
+        "yaml": "formats/yaml/SpaRV.yaml",
+        "sql": "formats/sql/SpaRV.sql",
+        "md": "formats/md/SpaRV.md",
+        "txt": "formats/txt/SpaRV.txt",
+        "sqlite": "formats/sqlite/SpaRV.db"
       }
     },
     {
       "version": "SpaRV1865",
-      "name": "La Santa Biblia Reina-Valera (1865) con arreglos ortográficos",
+      "name": "La Santa Biblia Reina-Valera (1865) con arreglos ortogr\u00e1ficos",
       "files": {
-        "csv": "/formats/csv/SpaRV1865.csv",
-        "json": "/formats/json/SpaRV1865.json",
-        "yaml": "/formats/yaml/SpaRV1865.yaml",
-        "sql": "/formats/sql/SpaRV1865.sql",
-        "md": "/formats/md/SpaRV1865.md",
-        "txt": "/formats/txt/SpaRV1865.txt",
-        "sqlite": "/formats/sqlite/SpaRV1865.db"
+        "csv": "formats/csv/SpaRV1865.csv",
+        "json": "formats/json/SpaRV1865.json",
+        "yaml": "formats/yaml/SpaRV1865.yaml",
+        "sql": "formats/sql/SpaRV1865.sql",
+        "md": "formats/md/SpaRV1865.md",
+        "txt": "formats/txt/SpaRV1865.txt",
+        "sqlite": "formats/sqlite/SpaRV1865.db"
       }
     },
     {
       "version": "SpaRVG",
-      "name": "Reina Valera Gómez",
+      "name": "Reina Valera G\u00f3mez",
       "files": {
-        "csv": "/formats/csv/SpaRVG.csv",
-        "json": "/formats/json/SpaRVG.json",
-        "yaml": "/formats/yaml/SpaRVG.yaml",
-        "sql": "/formats/sql/SpaRVG.sql",
-        "md": "/formats/md/SpaRVG.md",
-        "txt": "/formats/txt/SpaRVG.txt",
-        "sqlite": "/formats/sqlite/SpaRVG.db"
+        "csv": "formats/csv/SpaRVG.csv",
+        "json": "formats/json/SpaRVG.json",
+        "yaml": "formats/yaml/SpaRVG.yaml",
+        "sql": "formats/sql/SpaRVG.sql",
+        "md": "formats/md/SpaRVG.md",
+        "txt": "formats/txt/SpaRVG.txt",
+        "sqlite": "formats/sqlite/SpaRVG.db"
       }
     }
   ],
   "sr": [
     {
       "version": "SrKDEkavski",
-      "name": "Serbian Bible Daničić-Karadžić Ekavski",
+      "name": "Serbian Bible Dani\u010di\u0107-Karad\u017ei\u0107 Ekavski",
       "files": {
-        "csv": "/formats/csv/SrKDEkavski.csv",
-        "json": "/formats/json/SrKDEkavski.json",
-        "yaml": "/formats/yaml/SrKDEkavski.yaml",
-        "sql": "/formats/sql/SrKDEkavski.sql",
-        "md": "/formats/md/SrKDEkavski.md",
-        "txt": "/formats/txt/SrKDEkavski.txt",
-        "sqlite": "/formats/sqlite/SrKDEkavski.db"
+        "csv": "formats/csv/SrKDEkavski.csv",
+        "json": "formats/json/SrKDEkavski.json",
+        "yaml": "formats/yaml/SrKDEkavski.yaml",
+        "sql": "formats/sql/SrKDEkavski.sql",
+        "md": "formats/md/SrKDEkavski.md",
+        "txt": "formats/txt/SrKDEkavski.txt",
+        "sqlite": "formats/sqlite/SrKDEkavski.db"
       }
     },
     {
       "version": "SrKDIjekav",
-      "name": "Serbian Bible Daničić-Karadžić Ijekavski",
+      "name": "Serbian Bible Dani\u010di\u0107-Karad\u017ei\u0107 Ijekavski",
       "files": {
-        "csv": "/formats/csv/SrKDIjekav.csv",
-        "json": "/formats/json/SrKDIjekav.json",
-        "yaml": "/formats/yaml/SrKDIjekav.yaml",
-        "sql": "/formats/sql/SrKDIjekav.sql",
-        "md": "/formats/md/SrKDIjekav.md",
-        "txt": "/formats/txt/SrKDIjekav.txt",
-        "sqlite": "/formats/sqlite/SrKDIjekav.db"
+        "csv": "formats/csv/SrKDIjekav.csv",
+        "json": "formats/json/SrKDIjekav.json",
+        "yaml": "formats/yaml/SrKDIjekav.yaml",
+        "sql": "formats/sql/SrKDIjekav.sql",
+        "md": "formats/md/SrKDIjekav.md",
+        "txt": "formats/txt/SrKDIjekav.txt",
+        "sqlite": "formats/sqlite/SrKDIjekav.db"
       }
     }
   ],
@@ -1688,39 +1688,39 @@
       "version": "Swe1917",
       "name": "Swedish Bible (1917)",
       "files": {
-        "csv": "/formats/csv/Swe1917.csv",
-        "json": "/formats/json/Swe1917.json",
-        "yaml": "/formats/yaml/Swe1917.yaml",
-        "sql": "/formats/sql/Swe1917.sql",
-        "md": "/formats/md/Swe1917.md",
-        "txt": "/formats/txt/Swe1917.txt",
-        "sqlite": "/formats/sqlite/Swe1917.db"
+        "csv": "formats/csv/Swe1917.csv",
+        "json": "formats/json/Swe1917.json",
+        "yaml": "formats/yaml/Swe1917.yaml",
+        "sql": "formats/sql/Swe1917.sql",
+        "md": "formats/md/Swe1917.md",
+        "txt": "formats/txt/Swe1917.txt",
+        "sqlite": "formats/sqlite/Swe1917.db"
       }
     },
     {
       "version": "SweKarlXII",
       "name": "Svenska Karl XII:s Bibel (1703)",
       "files": {
-        "csv": "/formats/csv/SweKarlXII.csv",
-        "json": "/formats/json/SweKarlXII.json",
-        "yaml": "/formats/yaml/SweKarlXII.yaml",
-        "sql": "/formats/sql/SweKarlXII.sql",
-        "md": "/formats/md/SweKarlXII.md",
-        "txt": "/formats/txt/SweKarlXII.txt",
-        "sqlite": "/formats/sqlite/SweKarlXII.db"
+        "csv": "formats/csv/SweKarlXII.csv",
+        "json": "formats/json/SweKarlXII.json",
+        "yaml": "formats/yaml/SweKarlXII.yaml",
+        "sql": "formats/sql/SweKarlXII.sql",
+        "md": "formats/md/SweKarlXII.md",
+        "txt": "formats/txt/SweKarlXII.txt",
+        "sqlite": "formats/sqlite/SweKarlXII.db"
       }
     },
     {
       "version": "SweKarlXII1873",
       "name": "Svenska Karl XII:s Bibel (1873)",
       "files": {
-        "csv": "/formats/csv/SweKarlXII1873.csv",
-        "json": "/formats/json/SweKarlXII1873.json",
-        "yaml": "/formats/yaml/SweKarlXII1873.yaml",
-        "sql": "/formats/sql/SweKarlXII1873.sql",
-        "md": "/formats/md/SweKarlXII1873.md",
-        "txt": "/formats/txt/SweKarlXII1873.txt",
-        "sqlite": "/formats/sqlite/SweKarlXII1873.db"
+        "csv": "formats/csv/SweKarlXII1873.csv",
+        "json": "formats/json/SweKarlXII1873.json",
+        "yaml": "formats/yaml/SweKarlXII1873.yaml",
+        "sql": "formats/sql/SweKarlXII1873.sql",
+        "md": "formats/md/SweKarlXII1873.md",
+        "txt": "formats/txt/SweKarlXII1873.txt",
+        "sqlite": "formats/sqlite/SweKarlXII1873.db"
       }
     }
   ],
@@ -1729,13 +1729,13 @@
       "version": "TagAngBiblia",
       "name": "Philippine Bible Society (1905)",
       "files": {
-        "csv": "/formats/csv/TagAngBiblia.csv",
-        "json": "/formats/json/TagAngBiblia.json",
-        "yaml": "/formats/yaml/TagAngBiblia.yaml",
-        "sql": "/formats/sql/TagAngBiblia.sql",
-        "md": "/formats/md/TagAngBiblia.md",
-        "txt": "/formats/txt/TagAngBiblia.txt",
-        "sqlite": "/formats/sqlite/TagAngBiblia.db"
+        "csv": "formats/csv/TagAngBiblia.csv",
+        "json": "formats/json/TagAngBiblia.json",
+        "yaml": "formats/yaml/TagAngBiblia.yaml",
+        "sql": "formats/sql/TagAngBiblia.sql",
+        "md": "formats/md/TagAngBiblia.md",
+        "txt": "formats/txt/TagAngBiblia.txt",
+        "sqlite": "formats/sqlite/TagAngBiblia.db"
       }
     }
   ],
@@ -1744,13 +1744,13 @@
       "version": "Tausug",
       "name": "Tausug Kitab Injil",
       "files": {
-        "csv": "/formats/csv/Tausug.csv",
-        "json": "/formats/json/Tausug.json",
-        "yaml": "/formats/yaml/Tausug.yaml",
-        "sql": "/formats/sql/Tausug.sql",
-        "md": "/formats/md/Tausug.md",
-        "txt": "/formats/txt/Tausug.txt",
-        "sqlite": "/formats/sqlite/Tausug.db"
+        "csv": "formats/csv/Tausug.csv",
+        "json": "formats/json/Tausug.json",
+        "yaml": "formats/yaml/Tausug.yaml",
+        "sql": "formats/sql/Tausug.sql",
+        "md": "formats/md/Tausug.md",
+        "txt": "formats/txt/Tausug.txt",
+        "sqlite": "formats/sqlite/Tausug.db"
       }
     }
   ],
@@ -1759,13 +1759,13 @@
       "version": "ThaiKJV",
       "name": "Thai King James Version",
       "files": {
-        "csv": "/formats/csv/ThaiKJV.csv",
-        "json": "/formats/json/ThaiKJV.json",
-        "yaml": "/formats/yaml/ThaiKJV.yaml",
-        "sql": "/formats/sql/ThaiKJV.sql",
-        "md": "/formats/md/ThaiKJV.md",
-        "txt": "/formats/txt/ThaiKJV.txt",
-        "sqlite": "/formats/sqlite/ThaiKJV.db"
+        "csv": "formats/csv/ThaiKJV.csv",
+        "json": "formats/json/ThaiKJV.json",
+        "yaml": "formats/yaml/ThaiKJV.yaml",
+        "sql": "formats/sql/ThaiKJV.sql",
+        "md": "formats/md/ThaiKJV.md",
+        "txt": "formats/txt/ThaiKJV.txt",
+        "sqlite": "formats/sqlite/ThaiKJV.db"
       }
     }
   ],
@@ -1774,43 +1774,43 @@
       "version": "TpiKJPB",
       "name": "King Jems Pisin Baibel",
       "files": {
-        "csv": "/formats/csv/TpiKJPB.csv",
-        "json": "/formats/json/TpiKJPB.json",
-        "yaml": "/formats/yaml/TpiKJPB.yaml",
-        "sql": "/formats/sql/TpiKJPB.sql",
-        "md": "/formats/md/TpiKJPB.md",
-        "txt": "/formats/txt/TpiKJPB.txt",
-        "sqlite": "/formats/sqlite/TpiKJPB.db"
+        "csv": "formats/csv/TpiKJPB.csv",
+        "json": "formats/json/TpiKJPB.json",
+        "yaml": "formats/yaml/TpiKJPB.yaml",
+        "sql": "formats/sql/TpiKJPB.sql",
+        "md": "formats/md/TpiKJPB.md",
+        "txt": "formats/txt/TpiKJPB.txt",
+        "sqlite": "formats/sqlite/TpiKJPB.db"
       }
     }
   ],
   "uk": [
     {
       "version": "UkrOgienko",
-      "name": "Українська Біблія.",
+      "name": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u0411\u0456\u0431\u043b\u0456\u044f.",
       "files": {
-        "csv": "/formats/csv/UkrOgienko.csv",
-        "json": "/formats/json/UkrOgienko.json",
-        "yaml": "/formats/yaml/UkrOgienko.yaml",
-        "sql": "/formats/sql/UkrOgienko.sql",
-        "md": "/formats/md/UkrOgienko.md",
-        "txt": "/formats/txt/UkrOgienko.txt",
-        "sqlite": "/formats/sqlite/UkrOgienko.db"
+        "csv": "formats/csv/UkrOgienko.csv",
+        "json": "formats/json/UkrOgienko.json",
+        "yaml": "formats/yaml/UkrOgienko.yaml",
+        "sql": "formats/sql/UkrOgienko.sql",
+        "md": "formats/md/UkrOgienko.md",
+        "txt": "formats/txt/UkrOgienko.txt",
+        "sqlite": "formats/sqlite/UkrOgienko.db"
       }
     }
   ],
   "vi": [
     {
       "version": "Viet",
-      "name": "Kinh Thánh Tiếng Việt (1934)",
+      "name": "Kinh Th\u00e1nh Ti\u1ebfng Vi\u1ec7t (1934)",
       "files": {
-        "csv": "/formats/csv/Viet.csv",
-        "json": "/formats/json/Viet.json",
-        "yaml": "/formats/yaml/Viet.yaml",
-        "sql": "/formats/sql/Viet.sql",
-        "md": "/formats/md/Viet.md",
-        "txt": "/formats/txt/Viet.txt",
-        "sqlite": "/formats/sqlite/Viet.db"
+        "csv": "formats/csv/Viet.csv",
+        "json": "formats/json/Viet.json",
+        "yaml": "formats/yaml/Viet.yaml",
+        "sql": "formats/sql/Viet.sql",
+        "md": "formats/md/Viet.md",
+        "txt": "formats/txt/Viet.txt",
+        "sqlite": "formats/sqlite/Viet.db"
       }
     }
   ],
@@ -1819,65 +1819,65 @@
       "version": "VulgClementine",
       "name": "Clementine Vulgate",
       "files": {
-        "csv": "/formats/csv/VulgClementine.csv",
-        "json": "/formats/json/VulgClementine.json",
-        "yaml": "/formats/yaml/VulgClementine.yaml",
-        "sql": "/formats/sql/VulgClementine.sql",
-        "md": "/formats/md/VulgClementine.md",
-        "txt": "/formats/txt/VulgClementine.txt",
-        "sqlite": "/formats/sqlite/VulgClementine.db"
+        "csv": "formats/csv/VulgClementine.csv",
+        "json": "formats/json/VulgClementine.json",
+        "yaml": "formats/yaml/VulgClementine.yaml",
+        "sql": "formats/sql/VulgClementine.sql",
+        "md": "formats/md/VulgClementine.md",
+        "txt": "formats/txt/VulgClementine.txt",
+        "sqlite": "formats/sqlite/VulgClementine.db"
       }
     },
     {
       "version": "VulgConte",
       "name": "Vulgata Clementina, Conte editore",
       "files": {
-        "csv": "/formats/csv/VulgConte.csv",
-        "json": "/formats/json/VulgConte.json",
-        "yaml": "/formats/yaml/VulgConte.yaml",
-        "sql": "/formats/sql/VulgConte.sql",
-        "md": "/formats/md/VulgConte.md",
-        "txt": "/formats/txt/VulgConte.txt",
-        "sqlite": "/formats/sqlite/VulgConte.db"
+        "csv": "formats/csv/VulgConte.csv",
+        "json": "formats/json/VulgConte.json",
+        "yaml": "formats/yaml/VulgConte.yaml",
+        "sql": "formats/sql/VulgConte.sql",
+        "md": "formats/md/VulgConte.md",
+        "txt": "formats/txt/VulgConte.txt",
+        "sqlite": "formats/sqlite/VulgConte.db"
       }
     },
     {
       "version": "VulgHetzenauer",
       "name": "Vulgata Clementina, Hetzenauer editore",
       "files": {
-        "csv": "/formats/csv/VulgHetzenauer.csv",
-        "json": "/formats/json/VulgHetzenauer.json",
-        "yaml": "/formats/yaml/VulgHetzenauer.yaml",
-        "sql": "/formats/sql/VulgHetzenauer.sql",
-        "md": "/formats/md/VulgHetzenauer.md",
-        "txt": "/formats/txt/VulgHetzenauer.txt",
-        "sqlite": "/formats/sqlite/VulgHetzenauer.db"
+        "csv": "formats/csv/VulgHetzenauer.csv",
+        "json": "formats/json/VulgHetzenauer.json",
+        "yaml": "formats/yaml/VulgHetzenauer.yaml",
+        "sql": "formats/sql/VulgHetzenauer.sql",
+        "md": "formats/md/VulgHetzenauer.md",
+        "txt": "formats/txt/VulgHetzenauer.txt",
+        "sqlite": "formats/sqlite/VulgHetzenauer.db"
       }
     },
     {
       "version": "VulgSistine",
       "name": "Vulgata Sistina",
       "files": {
-        "csv": "/formats/csv/VulgSistine.csv",
-        "json": "/formats/json/VulgSistine.json",
-        "yaml": "/formats/yaml/VulgSistine.yaml",
-        "sql": "/formats/sql/VulgSistine.sql",
-        "md": "/formats/md/VulgSistine.md",
-        "txt": "/formats/txt/VulgSistine.txt",
-        "sqlite": "/formats/sqlite/VulgSistine.db"
+        "csv": "formats/csv/VulgSistine.csv",
+        "json": "formats/json/VulgSistine.json",
+        "yaml": "formats/yaml/VulgSistine.yaml",
+        "sql": "formats/sql/VulgSistine.sql",
+        "md": "formats/md/VulgSistine.md",
+        "txt": "formats/txt/VulgSistine.txt",
+        "sqlite": "formats/sqlite/VulgSistine.db"
       }
     },
     {
       "version": "Vulgate",
       "name": "Latin Vulgate",
       "files": {
-        "csv": "/formats/csv/Vulgate.csv",
-        "json": "/formats/json/Vulgate.json",
-        "yaml": "/formats/yaml/Vulgate.yaml",
-        "sql": "/formats/sql/Vulgate.sql",
-        "md": "/formats/md/Vulgate.md",
-        "txt": "/formats/txt/Vulgate.txt",
-        "sqlite": "/formats/sqlite/Vulgate.db"
+        "csv": "formats/csv/Vulgate.csv",
+        "json": "formats/json/Vulgate.json",
+        "yaml": "formats/yaml/Vulgate.yaml",
+        "sql": "formats/sql/Vulgate.sql",
+        "md": "formats/md/Vulgate.md",
+        "txt": "formats/txt/Vulgate.txt",
+        "sqlite": "formats/sqlite/Vulgate.db"
       }
     }
   ],
@@ -1886,13 +1886,13 @@
       "version": "Wulfila",
       "name": "Bishop Wulfila Gothic Bible",
       "files": {
-        "csv": "/formats/csv/Wulfila.csv",
-        "json": "/formats/json/Wulfila.json",
-        "yaml": "/formats/yaml/Wulfila.yaml",
-        "sql": "/formats/sql/Wulfila.sql",
-        "md": "/formats/md/Wulfila.md",
-        "txt": "/formats/txt/Wulfila.txt",
-        "sqlite": "/formats/sqlite/Wulfila.db"
+        "csv": "formats/csv/Wulfila.csv",
+        "json": "formats/json/Wulfila.json",
+        "yaml": "formats/yaml/Wulfila.yaml",
+        "sql": "formats/sql/Wulfila.sql",
+        "md": "formats/md/Wulfila.md",
+        "txt": "formats/txt/Wulfila.txt",
+        "sqlite": "formats/sqlite/Wulfila.db"
       }
     }
   ],
@@ -1901,13 +1901,13 @@
       "version": "Wycliffe",
       "name": "John Wycliffe Bible (c.1395)",
       "files": {
-        "csv": "/formats/csv/Wycliffe.csv",
-        "json": "/formats/json/Wycliffe.json",
-        "yaml": "/formats/yaml/Wycliffe.yaml",
-        "sql": "/formats/sql/Wycliffe.sql",
-        "md": "/formats/md/Wycliffe.md",
-        "txt": "/formats/txt/Wycliffe.txt",
-        "sqlite": "/formats/sqlite/Wycliffe.db"
+        "csv": "formats/csv/Wycliffe.csv",
+        "json": "formats/json/Wycliffe.json",
+        "yaml": "formats/yaml/Wycliffe.yaml",
+        "sql": "formats/sql/Wycliffe.sql",
+        "md": "formats/md/Wycliffe.md",
+        "txt": "formats/txt/Wycliffe.txt",
+        "sqlite": "formats/sqlite/Wycliffe.db"
       }
     }
   ],
@@ -1916,13 +1916,13 @@
       "version": "sml_BL_2008",
       "name": "Kitab Awal-Jaman maka Kitab Injil",
       "files": {
-        "csv": "/formats/csv/sml_BL_2008.csv",
-        "json": "/formats/json/sml_BL_2008.json",
-        "yaml": "/formats/yaml/sml_BL_2008.yaml",
-        "sql": "/formats/sql/sml_BL_2008.sql",
-        "md": "/formats/md/sml_BL_2008.md",
-        "txt": "/formats/txt/sml_BL_2008.txt",
-        "sqlite": "/formats/sqlite/sml_BL_2008.db"
+        "csv": "formats/csv/sml_BL_2008.csv",
+        "json": "formats/json/sml_BL_2008.json",
+        "yaml": "formats/yaml/sml_BL_2008.yaml",
+        "sql": "formats/sql/sml_BL_2008.sql",
+        "md": "formats/md/sml_BL_2008.md",
+        "txt": "formats/txt/sml_BL_2008.txt",
+        "sqlite": "formats/sqlite/sml_BL_2008.db"
       }
     }
   ],
@@ -1931,13 +1931,13 @@
       "version": "vlsJoNT",
       "name": "Het Nieuwe Testament by Nicolaas De Jonge",
       "files": {
-        "csv": "/formats/csv/vlsJoNT.csv",
-        "json": "/formats/json/vlsJoNT.json",
-        "yaml": "/formats/yaml/vlsJoNT.yaml",
-        "sql": "/formats/sql/vlsJoNT.sql",
-        "md": "/formats/md/vlsJoNT.md",
-        "txt": "/formats/txt/vlsJoNT.txt",
-        "sqlite": "/formats/sqlite/vlsJoNT.db"
+        "csv": "formats/csv/vlsJoNT.csv",
+        "json": "formats/json/vlsJoNT.json",
+        "yaml": "formats/yaml/vlsJoNT.yaml",
+        "sql": "formats/sql/vlsJoNT.sql",
+        "md": "formats/md/vlsJoNT.md",
+        "txt": "formats/txt/vlsJoNT.txt",
+        "sqlite": "formats/sqlite/vlsJoNT.db"
       }
     }
   ]

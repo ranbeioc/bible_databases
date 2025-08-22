@@ -12,6 +12,12 @@
             <select id="language-select"></select>
             <select id="version-select"></select>
         </div>
+        <div class="dropdown">
+            <button id="view-dropdown-btn">View</button>
+            <div id="view-dropdown-menu" class="dropdown-menu">
+                <a href="#" id="toggle-theme">Toggle Theme</a>
+            </div>
+        </div>
         <button id="sidebar-toggle">☰</button>
     </header>
 
@@ -26,7 +32,9 @@
         <main id="content"></main>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="marked.min.js"></script>
     <script src="script.js"></script>
+
+    <button id="scrollToTopBtn" title="Go to top">Top</button>
 </body>
 </html>

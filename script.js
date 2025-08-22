@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const clearAllBtn = document.getElementById('clear-all-btn');
     const sidebar = document.getElementById('sidebar');
     const sidebarToggle = document.getElementById('sidebar-toggle');
+    const scrollToTopBtn = document.getElementById('scrollToTopBtn');
 
     let langverData = {};
     let currentMarkdown = '';
@@ -36,27 +37,59 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Set the initial language and version based on browser settings or defaults
     async function setInitialLanguageAndVersion() {
-        const browserLang = navigator.language.split('-')[0];
-        if (langverData[browserLang]) {
-            langSelect.value = browserLang;
+        const savedLang = localStorage.getItem('selectedLanguage');
+        const savedVersion = localStorage.getItem('selectedVersion');
+
+        if (savedLang && langverData[savedLang]) {
+            langSelect.value = savedLang;
+            await updateVersions(savedVersion);
+        } else {
+            const browserLang = navigator.language.split('-')[0];
+            if (langverData[browserLang]) {
+                langSelect.value = browserLang;
+            }
+            await updateVersions();
         }
-        await updateVersions();
     }
 
     // Update the version selector when a language changes
-    async function updateVersions() {
+    async function updateVersions(versionToSelect = null) {
         const selectedLang = langSelect.value;
+        localStorage.setItem('selectedLanguage', selectedLang);
+
         const versions = langverData[selectedLang];
-        if (!versions) return;
+        if (!versions || versions.length === 0) {
+            versionSelect.innerHTML = '';
+            contentEl.innerHTML = '<p>No versions available for this language.</p>';
+            tocEl.innerHTML = '';
+            return;
+        }
 
         versionSelect.innerHTML = versions.map(v => `<option value="${v.version}">${v.name}</option>`).join('');
-        await loadContent();
+
+        const validVersion = versions.some(v => v.version === versionToSelect);
+
+        if (versionToSelect && validVersion) {
+            versionSelect.value = versionToSelect;
+            await loadContent(versionToSelect);
+        } else {
+            // Explicitly pass the new version to loadContent to avoid race conditions.
+            const newVersion = versions[0].version;
+            await loadContent(newVersion);
+        }
     }
 
     // Load the markdown content for the selected version
-    async function loadContent() {
+    async function loadContent(versionOverride = null) {
         const lang = langSelect.value;
-        const version = versionSelect.value;
+        const version = versionOverride || versionSelect.value;
+        localStorage.setItem('selectedVersion', version);
+
+        if (!lang || !version) {
+            contentEl.innerHTML = '<p>Please select a language and version.</p>';
+            return;
+        }
+
         const versionData = langverData[lang]?.find(v => v.version === version);
 
         if (versionData && versionData.files.md) {
@@ -75,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             contentEl.innerHTML = '<p>No markdown file available for this version.</p>';
             currentMarkdown = '';
-            tocEl.innerHTML = '';
+tocEl.innerHTML = '';
         }
     }
 
@@ -87,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const escapedText = text.toLowerCase().replace(/[^\w]+/g, '-');
             return `<h${level} id="${escapedText}">${text}</h${level}>`;
         };
-        contentEl.innerHTML = marked(markdown, { renderer: renderer });
+        contentEl.innerHTML = marked.parse(markdown, { renderer: renderer });
     }
 
     // Generate Table of Contents from markdown
@@ -141,17 +174,121 @@ document.addEventListener('DOMContentLoaded', () => {
                 sidebar.classList.remove('open');
             }
         });
+
+        // Scroll to top button logic
+        window.onscroll = function() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTopBtn.style.display = "block";
+            } else {
+                scrollToTopBtn.style.display = "none";
+            }
+        };
+
+        scrollToTopBtn.addEventListener('click', () => {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        });
+
+        // View dropdown
+        const viewDropdown = document.querySelector('.dropdown');
+        const viewDropdownBtn = document.getElementById('view-dropdown-btn');
+        const toggleThemeBtn = document.getElementById('toggle-theme');
+
+        viewDropdownBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            viewDropdown.classList.toggle('show');
+        });
+
+        toggleThemeBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const currentTheme = document.body.classList.contains('dark-theme') ? 'dark' : 'light';
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            applyTheme(newTheme);
+            viewDropdown.classList.remove('show');
+        });
+
+        // Close dropdown when clicking outside
+        window.addEventListener('click', (e) => {
+            if (!viewDropdown.contains(e.target)) {
+                viewDropdown.classList.remove('show');
+            }
+        });
     }
 
     // Helper to get a more readable language name
     function getLanguageName(langCode) {
-        try {
-            return new Intl.DisplayNames(['en'], { type: 'language' }).of(langCode) || langCode;
-        } catch (e) {
-            return langCode; // Fallback for unsupported codes
-        }
+        // Manual map for all codes to ensure consistency and support for non-standard ones.
+        const nameMap = {
+            "en": "English",
+            "sq": "Albanian",
+            "hy": "Armenian",
+            "bea": "Beaver",
+            "my": "Burmese",
+            "grc": "Ancient Greek",
+            "cu": "Church Slavonic",
+            "ceb": "Cebuano",
+            "chr": "Cherokee",
+            "zh-hans": "Chinese (Simplified)",
+            "zh-hant": "Chinese (Traditional)",
+            "cop-sa": "Coptic (Sahidic)",
+            "hr": "Croatian",
+            "cs": "Czech",
+            "da": "Danish",
+            "nl": "Dutch",
+            "eo": "Esperanto",
+            "et": "Estonian",
+            "fi": "Finnish",
+            "fr": "French",
+            "de": "German",
+            "el": "Greek",
+            "ht": "Haitian Creole",
+            "he": "Hebrew",
+            "hu": "Hungarian",
+            "ja": "Japanese",
+            "tlh": "Klingon",
+            "ko": "Korean",
+            "lv": "Latvian",
+            "mlf": "Malayalam",
+            "gv": "Manx",
+            "mi": "Maori",
+            "hbo": "Ancient Hebrew",
+            "mg": "Malagasy",
+            "nn": "Norwegian Nynorsk",
+            "nb": "Norwegian Bokmål",
+            "syr": "Syriac",
+            "pon": "Pohnpeian",
+            "pl": "Polish",
+            "pt": "Portuguese",
+            "ru": "Russian",
+            "sl": "Slovenian",
+            "es": "Spanish",
+            "sr": "Serbian",
+            "sv": "Swedish",
+            "tl": "Tagalog",
+            "tsg": "Tausug",
+            "th": "Thai",
+            "tpi": "Tok Pisin",
+            "uk": "Ukrainian",
+            "vi": "Vietnamese",
+            "la": "Latin",
+            "got": "Gothic",
+            "enm": "Middle English",
+            "sml": "Sama",
+            "vls": "Flemish"
+        };
+        return nameMap[langCode] || langCode;
+    }
+
+    function applyTheme(theme) {
+        document.body.classList.remove('light-theme', 'dark-theme');
+        document.body.classList.add(`${theme}-theme`);
+        localStorage.setItem('theme', theme);
     }
 
     // Start the app
     init();
+
+    // Apply saved theme on load
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    applyTheme(savedTheme);
 });
