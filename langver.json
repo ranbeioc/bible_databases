@@ -594,7 +594,11 @@
     {
       "version": "ChiUns",
       "name": "和合本 (简体字)",
-      "files": {}
+      "files": {
+        "json": "/formats/json/ChiUns.json",
+        "sql": "/formats/sql/ChiUns.sql",
+        "md": "/formats/md/ChiUns.md"
+      }
     }
   ],
   "zh-hant": [
