@@ -1,0 +1,524 @@
+project:
+  name: BibleHome
+  type: "多语言圣经平台 + RAG + 社区/LBS 扩展系统"
+  summary: >
+    这是一个以圣经多语言、多版本、多年代内容为核心的数据与应用平台。
+    当前目标不只是圣经阅读，还包括标注、跨语言交流、RAG问答、心理学/哲学辅导、
+    教堂为核心的LBS社区互动，以及未来AI语音/图像能力扩展。
+
+product_scope:
+  current_core:
+    - 多语言多版本圣经浏览
+    - 多版本对比
+    - 用户标注（高亮/笔记/收藏）
+    - 标签系统
+    - 静态Bible数据高性能分发
+  future_extensions:
+    - Bible RAG问答
+    - 心理学/哲学专业辅导RAG
+    - 用户公开笔记参与RAG
+    - 社区帖子与经文讨论
+    - 教堂LBS与群组
+    - AI语音生成
+    - AI图片生成
+
+architecture:
+  overall_strategy:
+    adopted: true
+    description: >
+      采用“静态Bible数据 + CDN分发 + 现代前端 + PostgreSQL主库 + pgvector + PostGIS”的分层架构。
+      Bible正文主阅读路径不走实时API，用户数据和AI能力走API与数据库。
+  frontend:
+    preferred_stack:
+      - Next.js
+      - React
+    rendering_strategy:
+      - SSG
+      - CSR
+    route_pattern: "/[lang]/[version]/[book]/[chapter]"
+    notes:
+      - 前端负责合并正文与标注数据
+      - 前端需要本地缓存（IndexedDB/localStorage）与章节预加载
+  static_bible_delivery:
+    adopted: true
+    format: "JSON"
+    path_pattern: "/data/{lang}/{version}/{book}/{chapter}.json"
+    caching:
+      recommended_header: "Cache-Control: public, max-age=31536000, immutable"
+    notes:
+      - Bible主正文为静态资源
+      - 通过Cloudflare CDN分发
+      - 不依赖数据库实时读正文
+  api_layer:
+    purpose:
+      - 用户认证
+      - annotation CRUD
+      - RAG query
+      - 社区与LBS功能
+    notes:
+      - API不参与Bible主阅读路径
+  database:
+    primary: "PostgreSQL"
+    extensions:
+      - vector
+      - postgis
+      - uuid-ossp
+      - pgcrypto
+    notes:
+      - pgvector负责向量检索
+      - PostGIS负责LBS/教堂地理能力
+      - 不采用D1作为主数据库
+      - 不采用Cloudflare Vectorize作为主向量库
+  deployment_split:
+    frontend_static:
+      recommended:
+        - Cloudflare Pages
+        - Cloudflare CDN
+    backend_api:
+      recommended:
+        - VPS
+    database_hosting:
+      recommended:
+        - VPS PostgreSQL
+    notes:
+      - 前端/静态与后端/数据库分离
+      - Bible正文与用户动态数据分离
+
+core_design_decisions:
+  dual_reference_system:
+    adopted: true
+    importance: "最高"
+    description: >
+      采用双层引用体系：语义层使用 verse_id，显示层使用 ref。
+      所有跨语言、跨版本、RAG、社区、标签关联逻辑必须基于 verse_id。
+    verse_id:
+      format: "book-chapter-verse"
+      example: "43-3-16"
+      semantics:
+        - 与语言无关
+        - 与版本无关
+        - 作为全系统统一语义锚点
+    ref:
+      format: "lang-version-book-chapter-verse"
+      example: "zh-CUV-43-3-16"
+      semantics:
+        - 与具体语言和版本绑定
+        - 用于显示层与具体版本定位
+    rules:
+      - "所有语义关联使用 verse_id"
+      - "ref 仅用于显示层和版本上下文"
+      - "严禁将跨语言核心关联退化回 ref"
+  content_association_principle:
+    adopted: true
+    rule: "语义层统一，显示层本地化"
+  data_separation:
+    adopted: true
+    rule: >
+      Bible正文是静态数据；用户标注、社区、AI索引是动态数据。
+      两者必须分离，不能混为单一数据库正文读取架构。
+  embedding_consistency:
+    adopted: true
+    rule: >
+      正式向量库必须统一使用同一embedding模型、同一量化版本、同一处理规则。
+      严禁混用不同模型或不同量化版本共同构建同一正式向量空间。
+  model_quantization_decision:
+    adopted: true
+    chosen_default: "q8_0"
+    rationale: >
+      在embedding场景中，q8_0与f16质量差异很小，但显存占用更低、速度更快、工程性价比更高。
+      尤其对Tesla P4更适合。
+  bible_read_path:
+    adopted: true
+    rule: "Bible主阅读路径不依赖API，不依赖数据库实时查询"
+
+database_state:
+  environment:
+    os: "Ubuntu 24.x ARM"
+    container_runtime: "Docker"
+    postgres_image_strategy: "自建镜像"
+    reason: >
+      需要在ARM环境下同时支持pgvector与PostGIS，单一现成镜像不稳定或不完整，因此采用 postgres:16-bookworm + 手动安装PostGIS包 + 编译安装pgvector。
+  current_extensions_verified:
+    - plpgsql
+    - vector
+    - postgis
+    - uuid-ossp
+    - pgcrypto
+  deployment_notes:
+    - "自建镜像已构建成功"
+    - "曾遇到 pgvector 编译缺少 postgres.h 的问题"
+    - "根因是缺少 postgresql-server-dev-16"
+    - "修复后已成功构建"
+  compose_notes:
+    - "docker-compose.yml 中 version 字段已废弃，后续建议移除"
+
+schemas:
+  intended:
+    - core
+    - bible
+    - annotation
+    - community
+    - ai
+
+tables:
+  bible.verses:
+    status: "已创建"
+    purpose: "经文引用索引表，不承担正文主读取"
+    columns:
+      - { name: id, type: TEXT, role: "显示层ref，如 zh-CUV-43-3-16", primary_key: true }
+      - { name: verse_id, type: TEXT, role: "语义层ID，如 43-3-16" }
+      - { name: lang, type: TEXT }
+      - { name: version, type: TEXT }
+      - { name: book, type: INT }
+      - { name: chapter, type: INT }
+      - { name: verse, type: INT }
+    indexes:
+      - { name: idx_verse_id, columns: ["verse_id"] }
+      - { name: idx_lang_version, columns: ["lang", "version"] }
+    notes:
+      - "当前仅做索引和统一引用锚点"
+      - "Bible正文仍建议走静态JSON"
+  annotation.annotations:
+    status: "已创建"
+    purpose: "用户标注主表"
+    columns:
+      - { name: id, type: UUID, default: "gen_random_uuid()", primary_key: true }
+      - { name: user_id, type: UUID, nullable: false }
+      - { name: verse_id, type: TEXT, nullable: false, role: "跨语言语义关联核心字段" }
+      - { name: ref, type: TEXT, nullable: true, role: "具体语言版本上下文" }
+      - { name: lang, type: TEXT, nullable: true, role: "标注内容语言" }
+      - { name: type, type: TEXT, nullable: false, role: "highlight / note / bookmark" }
+      - { name: content, type: TEXT }
+      - { name: color, type: TEXT }
+      - { name: tags, type: "TEXT[]" }
+      - { name: visibility, type: TEXT, default: "private" }
+      - { name: created_at, type: TIMESTAMP, default: "NOW()" }
+      - { name: updated_at, type: TIMESTAMP, default: "NOW()" }
+    indexes:
+      - { name: idx_user_verse, columns: ["user_id", "verse_id"] }
+      - { name: idx_verse_public, columns: ["verse_id"], condition: "visibility = 'public'" }
+      - { name: idx_tags, type: "GIN", columns: ["tags"] }
+    future_changes:
+      - "增加 embedding 列，供 annotation 参与RAG"
+    proposed_extension:
+      sql: "ALTER TABLE annotation.annotations ADD COLUMN embedding VECTOR(<final_dimension>);"
+  annotation.tags:
+    status: "已创建"
+    purpose: "标签规范化主表"
+    columns:
+      - { name: id, type: UUID, default: "gen_random_uuid()", primary_key: true }
+      - { name: key, type: TEXT, unique: true, nullable: false, role: "canonical tag key，例如 love / faith" }
+  annotation.tag_translations:
+    status: "已创建"
+    purpose: "标签多语言映射表"
+    columns:
+      - { name: tag_id, type: UUID, references: "annotation.tags(id)" }
+      - { name: lang, type: TEXT }
+      - { name: label, type: TEXT }
+    primary_key:
+      - tag_id
+      - lang
+    notes:
+      - "用于多语言标签展示和跨语言标签搜索"
+  ai.chunks:
+    status: "已存在"
+    purpose: "RAG chunk 与向量存储"
+    columns:
+      - { name: id, type: UUID, default: "gen_random_uuid()", primary_key: true }
+      - { name: verse_ids, type: "TEXT[]", nullable: false }
+      - { name: lang, type: TEXT, nullable: false }
+      - { name: content, type: TEXT, nullable: false }
+      - { name: embedding, type: "VECTOR(768)", note: "需要与最终模型维度复核" }
+      - { name: created_at, type: TIMESTAMP, default: "NOW()" }
+    indexes:
+      - { name: idx_chunks_embedding, type: "ivfflat", operator: "vector_cosine_ops", with: { lists: 100 } }
+    warnings:
+      - "embedding维度需要与最终模型输出一致"
+      - "如果最终模型不是768维，需要迁移"
+  community.posts:
+    status: "未创建完整表"
+    current_issue: "曾执行 ALTER TABLE community.posts ADD COLUMN verse_id TEXT 失败，因为表不存在"
+    proposed_minimal_schema:
+      columns:
+        - { name: id, type: UUID, default: "gen_random_uuid()", primary_key: true }
+        - { name: user_id, type: UUID }
+        - { name: content, type: TEXT }
+        - { name: created_at, type: TIMESTAMP, default: "NOW()" }
+        - { name: verse_id, type: TEXT, role: "统一绑定语义经文" }
+    notes:
+      - "社区帖子绑定 verse_id，而不是仅绑定 ref"
+  core.users:
+    status: "未创建"
+    proposed_schema:
+      columns:
+        - { name: id, type: UUID, primary_key: true }
+        - { name: email, type: TEXT, unique: true }
+        - { name: password_hash, type: TEXT }
+        - { name: created_at, type: TIMESTAMP, default: "NOW()" }
+  core.sessions:
+    status: "未创建"
+    proposed_schema:
+      columns:
+        - { name: id, type: UUID, primary_key: true }
+        - { name: user_id, type: UUID, references: "core.users(id)" }
+        - { name: token, type: TEXT }
+        - { name: expires_at, type: TIMESTAMP }
+
+annotation_api:
+  status: "设计已定，待实现"
+  endpoints:
+    - method: POST
+      path: /api/annotations
+      purpose: "创建标注"
+      request_example:
+        verse_id: "43-3-16"
+        ref: "zh-CUV-43-3-16"
+        lang: "zh"
+        type: "highlight"
+        color: "yellow"
+        content: "神爱世人"
+        tags: ["love", "faith"]
+    - method: GET
+      path: /api/annotations
+      purpose: "按 verse_id 或章节批量查询标注"
+    - method: PUT
+      path: /api/annotations/{id}
+      purpose: "更新标注"
+    - method: DELETE
+      path: /api/annotations/{id}
+      purpose: "删除标注"
+  implementation_principles:
+    - "所有跨语言关联基于 verse_id"
+    - "前端负责与正文数据合并"
+    - "visibility 控制 private/public"
+    - "annotation 未来可接入 embedding 与RAG"
+
+static_bible_data:
+  storage_strategy:
+    adopted: true
+    format: "JSON"
+    partitioning: "按语言/版本/书卷/章节"
+  recommended_shape:
+    example:
+      book: 43
+      chapter: 3
+      verses:
+        - "第1节"
+        - "第2节"
+  principles:
+    - "尽量减少冗余字段名"
+    - "依赖 CDN gzip/brotli 压缩"
+    - "不要把Bible主数据回退为实时数据库读取"
+
+rag_design:
+  status: "总体方案已定，待具体脚本/API实现"
+  pipeline:
+    - "原始多语言多版本Bible数据"
+    - "标准化为 verse 级记录"
+    - "生成 verse_id 与 ref"
+    - "按章节/语言分组"
+    - "连续经文切 chunk"
+    - "统一模型生成 embedding"
+    - "写入 ai.chunks"
+    - "查询时对问题做 embedding"
+    - "pgvector 检索 topK"
+    - "结合 LLM 输出答案"
+  chunking_principles:
+    rejected:
+      - "一节一个 chunk"
+    adopted:
+      - "连续经文组成 chunk"
+      - "保持语义连续"
+      - "长度控制在适合 embedding 的范围"
+    example:
+      verse_ids: ["43-3-14", "43-3-15", "43-3-16"]
+      lang: "en"
+      content: "..."
+  multilingual_rule:
+    adopted: true
+    rule: "所有语言必须使用同一个 embedding 模型"
+  annotation_rag_integration:
+    planned: true
+    notes:
+      - "annotation 需要 embedding 列"
+      - "公开笔记、用户笔记可参与RAG"
+  rag_api:
+    proposed:
+      method: POST
+      path: /api/rag/query
+      request_example:
+        question: "神为什么爱世人？"
+        lang: "zh"
+      response_example:
+        answer: "..."
+        sources:
+          - "43-3-16"
+          - "43-3-17"
+
+local_embedding_strategy:
+  chosen: true
+  rationale: >
+    当前圣经多语言多版本原始数据规模较大，线上embedding服务在成本、速度、长期依赖上都不如本地批处理合适。
+  candidate_model:
+    name: "intfloat-multilingual-e5-large-instruct"
+    ollama_variants:
+      - "jeffh/intfloat-multilingual-e5-large-instruct:q8_0"
+      - "jeffh/intfloat-multilingual-e5-large-instruct:f16"
+    chosen_default: "q8_0"
+    rationale: >
+      embedding任务中 q8_0 与 f16 质量接近，但显存更省、速度通常更高，工程性价比更优。
+  hardware_evaluation:
+    vps_neoverse_n1_4core:
+      suitability: "不适合主力embedding"
+      conclusion: "仅适合测试，不适合全量批处理"
+    nas_tesla_p4:
+      suitability: "可用"
+      conclusion: "适合小规模或增量处理，不是最佳全量主力"
+    pc_rtx_5070_ti:
+      suitability: "最优"
+      conclusion: "推荐作为主力embedding处理设备"
+  final_recommendation:
+    - "主力 embedding 使用 RTX 5070 Ti"
+    - "增量/备用可用 Tesla P4"
+    - "VPS 不做全量 embedding，只做 API / RAG 查询"
+
+raw_data_processing:
+  status: "原则已明确，脚本待实现"
+  input_expected_shape:
+    required_fields:
+      - lang
+      - version
+      - book
+      - chapter
+      - verse
+      - text
+  normalization:
+    outputs:
+      - verse_id
+      - ref
+  grouping:
+    key: ["book", "chapter", "lang"]
+  chunking:
+    rule: "按连续经文与长度阈值切分，不按单节"
+  ingestion:
+    target_table: "ai.chunks"
+    fields:
+      - verse_ids
+      - lang
+      - content
+      - embedding
+  rollout_strategy:
+    - "先单章验证（如 John 3）"
+    - "再数章/单卷"
+    - "再全量"
+
+community_and_lbs:
+  status: "设计方向已定，未完整落地"
+  community_goal:
+    - "多语言用户围绕同一节经文讨论"
+    - "群组互动"
+    - "公开帖子可与 RAG 联动"
+  lbs_goal:
+    - "教堂附近检索"
+    - "基于位置的教会/群组发现"
+  database_requirement:
+    adopted: true
+    requirement: "PostGIS"
+  future_tables:
+    - community.churches
+    - community.groups
+    - community.memberships
+    - community.posts
+  association_rule:
+    adopted: true
+    rule: "社区内容与经文绑定统一使用 verse_id"
+
+cloudflare_discussions:
+  cloudflare_d1:
+    decision: "不采用为主数据库"
+    reason:
+      - "关系能力不足"
+      - "后续 annotation / 社区 / RAG 查询复杂"
+  cloudflare_vectorize:
+    decision: "不采用为主向量库"
+    reason:
+      - "不适合作为强关系、多表过滤、权限控制的核心向量层"
+      - "当前 pgvector 更适合"
+    possible_future_role:
+      - "作为加速召回层"
+  cloudflare_workers_ai:
+    decision: "可用但不作为当前主 embedding 方案"
+    reason:
+      - "可用于验证或补充"
+      - "不适合大规模长期全量向量化主流程"
+
+rejected_or_not_adopted_options:
+  - option: "Bible 主数据全部通过 REST API 查询"
+    reason:
+      - "破坏读多写少场景性能"
+      - "失去 CDN 强缓存优势"
+  - option: "主数据库使用 Cloudflare D1"
+    reason:
+      - "不适合复杂关系与扩展"
+  - option: "主向量库使用 Cloudflare Vectorize"
+    reason:
+      - "不适合当前复杂过滤与关系协同"
+  - option: "分两个数据库分别做 pgvector 与 PostGIS"
+    reason:
+      - "跨库复杂，维护成本高"
+  - option: "VPS CPU 作为 embedding 主力"
+    reason:
+      - "速度不可接受"
+  - option: "正式向量库混用 q8_0 与 f16 或不同 embedding 模型"
+    reason:
+      - "向量空间不一致，检索会失真"
+
+known_issues:
+  - "community.posts 尚未创建"
+  - "core.users / core.sessions 尚未创建"
+  - "annotation.annotations 尚未增加 embedding 列"
+  - "ai.chunks.embedding 维度需要与最终模型再次核对"
+  - "前端缓存、预加载与离线策略尚未落地"
+  - "JSON 生成/压缩脚本尚未实现"
+  - "原始Bible数据标准化脚本尚未实现"
+  - "chunk 切分脚本尚未实现"
+  - "批量 embedding 导入脚本尚未实现"
+  - "annotation API 尚未实现"
+  - "RAG query API 尚未实现"
+
+must_not_forget:
+  - "verse_id 是全系统统一语义锚点"
+  - "ref 不是跨语言主键"
+  - "Bible正文主阅读路径不走 API"
+  - "embedding 模型与量化版本必须统一"
+  - "标签必须规范化并支持多语言翻译"
+  - "annotation 将来必须可接入 RAG"
+  - "社区与经文讨论必须绑定 verse_id"
+  - "先小规模验证再全量导入"
+
+recommended_next_steps_for_codex:
+  - "补齐 SQL migration：core / community / annotation embedding"
+  - "核对 intfloat-multilingual-e5-large-instruct 最终向量维度"
+  - "设计并实现原始Bible数据标准化脚本"
+  - "设计并实现 chunk 切分脚本"
+  - "实现本地 GPU embedding 批量导入脚本（Ollama q8_0）"
+  - "实现 annotation API"
+  - "实现基础 RAG query API"
+  - "实现前端章节页正文 + annotation 合并逻辑"
+  - "后续再推进 community / LBS / AI 扩展"
+
+current_verified_state:
+  database:
+    postgres_running: true
+    vector_extension: true
+    postgis_extension: true
+    uuid_ossp_extension: true
+    pgcrypto_extension: true
+  created_tables:
+    - bible.verses
+    - annotation.annotations
+    - annotation.tags
+    - annotation.tag_translations
+    - ai.chunks
+  verified_insertions:
+    - "annotation.annotations 已成功插入测试数据"
