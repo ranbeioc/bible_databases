@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-06-30T17:23:24.790593+00:00",
+  "source": {
+    "repo": "BibleAquifer/ArabicVanDyckBible",
+    "tree_url": "https://github.com/BibleAquifer/ArabicVanDyckBible/tree/main/arb/json",
+    "commit": "4d9222a948067796be83fc9f127081dcfbe55f91",
+    "path": "arb/json",
+    "license": "Public Domain / CC0 per BibleAquifer ArabicVanDyckBible"
+  },
+  "metadata": {
+    "lang": "ar",
+    "languageTag": "arb",
+    "version": "SVD",
+    "name": "Arabic Smith & Van Dyck",
+    "nativeName": "الفاندايك",
+    "direction": "rtl"
+  },
+  "counts": {
+    "source_files": 66,
+    "source_records": 31104,
+    "books": 66,
+    "chapters": 1189,
+    "verses": 31104,
+    "empty_verses": 0
+  },
+  "samples": {
+    "Genesis 1:1": "فِي ٱلْبَدْءِ خَلَقَ ٱللهُ ٱلسَّمَاوَاتِ وَٱلْأَرْضَ.",
+    "John 3:16": "لِأَنَّهُ هَكَذَا أَحَبَّ ٱللهُ ٱلْعَالَمَ حَتَّى بَذَلَ ٱبْنَهُ ٱلْوَحِيدَ، لِكَيْ لَا يَهْلِكَ كُلُّ مَنْ يُؤْمِنُ بِهِ، بَلْ تَكُونُ لَهُ ٱلْحَيَاةُ ٱلْأَبَدِيَّةُ."
+  }
+}
